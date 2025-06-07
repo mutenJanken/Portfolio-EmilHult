@@ -280,3 +280,52 @@ section {
   padding: 1rem;
   margin-bottom: 0;
 }
+
+// SKILLS
+
+.skill-wrapper {
+  display: flex;
+  padding: 0 1rem 0 1rem;
+  border-bottom: 0.5px solid #66faa47e;
+
+  &.bottom {
+    border: none;
+  }
+}
+
+.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+.logo {
+  width: 45px;
+  height: 45px;
+  margin: 0rem 0 1rem 0;
+  filter: invert(90%) sepia(30%) saturate(320%) hue-rotate(185deg) opacity(60%);
+}
+
+.skill-type-wrapper {
+  display: flex;
+  justify-content: center;
+
+  .skill-top-h5 {
+    color: rgb(153, 153, 222);
+    margin: 0rem 0 0 0;
+    font-weight: 300;
+  }
+  .skill-h5 {
+    color: rgb(153, 153, 222);
+    margin: 0.8rem 0 0 0;
+    font-weight: 300;
+  }
+}
+
+.skill-description {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: rgb(221, 221, 223);
+  margin: 0.2rem 0 1rem 0;
+}
