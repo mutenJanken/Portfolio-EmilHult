@@ -2,8 +2,8 @@ import "./index.scss";
 import Header from "./components/header";
 import Aboutme from "./components/Aboutme";
 import { NavLink, Routes, Route, Navigate } from "react-router-dom";
-import TestLink from "./components/TestLink";
-import TestLink2 from "./components/TestLink2";
+import Skills from "./components/Skills";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
@@ -15,11 +15,11 @@ function App() {
         <NavLink className="navlink-tab" to="/about">
           About me
         </NavLink>
-        <NavLink className="navlink-tab" to="/testlink">
-          Testlink1
+        <NavLink className="navlink-tab" to="/skills">
+          Skills
         </NavLink>
-        <NavLink className="navlink-tab" to="/testlink2">
-          Testlink2
+        <NavLink className="navlink-tab" to="/portfolio">
+          Portfolio
         </NavLink>
       </div>
 
@@ -29,8 +29,8 @@ function App() {
         <Route path="/" element={<Navigate to="/about" replace />} />
 
         <Route path="/about" element={<Aboutme />} />
-        <Route path="/testlink" element={<TestLink />} />
-        <Route path="/testlink2" element={<TestLink2 />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
     </>
   );
