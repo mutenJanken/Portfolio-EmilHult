@@ -5,7 +5,8 @@ function Aboutme() {
   return (
     <>
       <div className="card-container">
-        <div className="card-under">UNDER</div>
+        <div className="card-under-one">UNDER1</div>
+        <div className="card-under-two">UNDER2</div>
         <section>
           <div className="profile-picture-wrapper">
             <img className="profile-picture" src={ProfilePicture} alt="Profile picture" />
