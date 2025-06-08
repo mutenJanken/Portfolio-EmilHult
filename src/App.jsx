@@ -10,28 +10,30 @@ function App() {
     <>
       <Header />
 
-      {/* NAV LINKS / TABS  */}
-      <div className="navlinks-wrapper">
-        <NavLink className="navlink-tab" to="/about">
-          About me
-        </NavLink>
-        <NavLink className="navlink-tab" to="/skills">
-          Skills
-        </NavLink>
-        <NavLink className="navlink-tab" to="/portfolio">
-          Portfolio
-        </NavLink>
+      <div className="container">
+        {/* NAV LINKS / TABS  */}
+        <div className="navlinks-wrapper">
+          <NavLink className="navlink-tab" to="/about">
+            About me
+          </NavLink>
+          <NavLink className="navlink-tab" to="/skills">
+            Skills
+          </NavLink>
+          <NavLink className="navlink-tab" to="/portfolio">
+            Portfolio
+          </NavLink>
+        </div>
+
+        {/* ROUTES  */}
+        <Routes>
+          {/* HOME PAGE */}
+          <Route path="/" element={<Navigate to="/about" replace />} />
+
+          <Route path="/about" element={<Aboutme />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+        </Routes>
       </div>
-
-      {/* ROUTES  */}
-      <Routes>
-        {/* HOME PAGE */}
-        <Route path="/" element={<Navigate to="/about" replace />} />
-
-        <Route path="/about" element={<Aboutme />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-      </Routes>
     </>
   );
 }
