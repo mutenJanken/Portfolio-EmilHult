@@ -225,7 +225,7 @@ section {
   @media screen and (max-width: 768px) {
     margin: 0 2.2rem 0 1rem;
     width: 100%;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
   }
 }
 
@@ -565,11 +565,15 @@ section {
 
 .skill-wrapper {
   display: flex;
-  padding: 0 1rem 0 1rem;
-  border-bottom: 0.5px solid #66faa47e;
+  padding: 0.5rem 1rem 1rem 1rem;
 
   &.bottom {
     border: none;
+    padding-bottom: 1rem 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    // border-bottom: 0.5px solid #66faa47e;
   }
 }
 
@@ -583,24 +587,61 @@ section {
 .logo {
   width: 45px;
   height: 45px;
-  margin: 0rem 0 1rem 0;
+  margin: 0rem 0 0rem 0;
   filter: invert(90%) sepia(30%) saturate(320%) hue-rotate(185deg) opacity(60%);
 }
 
+.skill-type-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  // margin: 0 8rem;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    margin: 0;
+    gap: 0.5rem;
+  }
+}
+
 .skill-type-wrapper {
+  background-color: #353941;
+  border-radius: 1rem;
+  border-left: 5px solid #66faa47e;
+  border-right: 5px solid #66faa47e;
+
+  @media screen and (max-width: 768px) {
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 5rem;
+    border-top: 2px solid #66faa47e;
+    border-left: 4px solid #66faa47e;
+
+    border-right: none;
+  }
+}
+
+.skill-type {
   display: flex;
   justify-content: start;
   margin-left: 4.7rem;
 
   .skill-top-h5 {
-    color: rgb(153, 153, 222);
-    margin: 0rem 0 0 0;
-    font-weight: 300;
+    font-size: 1.2rem;
+    color: rgb(221, 221, 223);
+    // color: rgb(153, 153, 222);
+    margin: 1rem 0 0 0;
+    font-weight: 400;
   }
   .skill-h5 {
-    color: rgb(153, 153, 222);
-    margin: 0.8rem 0 0 0;
-    font-weight: 300;
+    font-size: 1.2rem;
+    color: rgb(221, 221, 223);
+    // color: rgb(153, 153, 222);
+    margin: 1rem 0 0 0;
+    font-weight: 400;
   }
 
   @media screen and (max-width: 768px) {
@@ -610,8 +651,19 @@ section {
 }
 
 .skill-description {
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 300;
-  color: rgb(221, 221, 223);
-  margin: 0.2rem 0 1rem 0;
+  // color: rgb(221, 221, 223);
+  color: rgb(153, 153, 222);
+  width: 40rem;
+  margin: 0rem 0 0rem 0;
+
+  &.bottom {
+    margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 0.8rem;
+    width: 100%;
+  }
 }
