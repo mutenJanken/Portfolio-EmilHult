@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 import { useState, useEffect } from "react";
+import NavBar from "./components/NavBar";
 
 function useWindowWidth() {
   const [width, setWidth] = useState(window.innerWidth);
@@ -31,8 +32,8 @@ function App() {
       <div className="wrapper">
         {/* NAV LINKS / TABS */}
         <main>
-          <div className="navlinks-wrapper">
-            <NavLink className="navlink-tab" to="/about">
+          {/* <div className="navlinks-wrapper"> */}
+          {/* <NavLink className="navlink-tab" to="/about">
               About me
             </NavLink>
             <NavLink className="navlink-tab" to="/skills">
@@ -40,8 +41,9 @@ function App() {
             </NavLink>
             <NavLink className="navlink-tab" to="/portfolio">
               Portfolio
-            </NavLink>
-          </div>
+            </NavLink> */}
+          <NavBar />
+          {/* </div> */}
 
           {/* ROUTES / CONTENT */}
           {!isLargeScreen ? (
@@ -54,11 +56,11 @@ function App() {
             </Routes>
           ) : (
             // BIG SCREENS
-            <div className="large-screen-content" style={{ display: "flex", gap: "2rem" }}>
-              <div style={{ flex: 1 }}>
+            <div className="large-screen-content">
+              <div>
                 <Aboutme />
               </div>
-              <div style={{ flex: 1 }}>
+              <div>
                 <Routes>
                   <Route path="/" element={<Navigate to="/skills" replace />} />
                   <Route path="/skills" element={<Skills />} />
