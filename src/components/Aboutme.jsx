@@ -13,7 +13,8 @@ function Aboutme() {
               <img className="profile-picture" src={ProfilePicture} alt="Profile picture" />
             </div>
             <div className="about-me-vertical">
-              <h2 className="greeting-text">Hello, my name is Emil Hult</h2>
+              <h2 className="greeting-text">Hello, I'm</h2>
+              <h1 className="greeting-text-h1">Emil Hult</h1>
               <p className="aboutme-description-wrapper">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, doloremque. Repellendus
                 consequatur beatae eius illo, molestiae unde quos libero cumque obcaecati corrupti ad in
