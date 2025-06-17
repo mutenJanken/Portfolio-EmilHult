@@ -12,60 +12,65 @@ function Skills() {
       <div className="card-under-two">UNDER2</div>
       <section>
         {/* BACKEND */}
-        <div className="skill-type-container">
-          <div className="skill-type-wrapper">
-            <div className="skill-type">
-              <h5 className="skill-top-h5">Backend</h5>
-            </div>
-            <div className="skill-wrapper">
-              <div className="logo-wrapper">
-                <img className="logo" src={CsharpLogo} alt="csharp logo" />
+        <div className="skills-vertical">
+          <h2 className="skills-header">My skillset</h2>
+          <div className="skill-type-container">
+            <div className="skill-type-wrapper">
+              <div className="skill-type">
+                <h5 className="skill-top-h5">Backend</h5>
               </div>
-              <p className="skill-description">
-                C#, .NET, REST APIs (ASP.NET Web API), gRPC, Monolithic & Microservices architecture
-              </p>
+              <div className="skill-wrapper">
+                <div className="logo-wrapper">
+                  <img className="logo" src={CsharpLogo} alt="csharp logo" />
+                </div>
+                <p className="skill-description">
+                  C#, .NET, REST APIs (ASP.NET Web API), gRPC, Monolithic & Microservices architecture
+                </p>
+              </div>
             </div>
-          </div>
 
-          {/* FRONTEND*/}
-          <div className="skill-type-wrapper">
-            <div className="skill-type">
-              <h5 className="skill-h5">Frontend</h5>
-            </div>
-            <div className="skill-wrapper">
-              <div className="logo-wrapper">
-                <img className="logo" src={ReactLogo} alt="html logo" />
+            {/* FRONTEND*/}
+            <div className="skill-type-wrapper">
+              <div className="skill-type">
+                <h5 className="skill-h5">Frontend</h5>
               </div>
-              <p className="skill-description">React, ASP.NET MVC, Javascript, Html, CSS/SCSS</p>
+              <div className="skill-wrapper">
+                <div className="logo-wrapper">
+                  <img className="logo" src={ReactLogo} alt="html logo" />
+                </div>
+                <p className="skill-description">React, ASP.NET MVC, Javascript, Html, CSS/SCSS</p>
+              </div>
             </div>
-          </div>
 
-          {/* DATABASE */}
-          <div className="skill-type-wrapper">
-            <div className="skill-type">
-              <h5 className="skill-h5">Database</h5>
-            </div>
-            <div className="skill-wrapper">
-              <div className="logo-wrapper">
-                <img className="logo" src={DBLogo} alt="database logo" />
+            {/* DATABASE */}
+            <div className="skill-type-wrapper">
+              <div className="skill-type">
+                <h5 className="skill-h5">Database</h5>
               </div>
-              <p className="skill-description">SQL Server, T-SQL, MongoDB, Entity Framework Core, ADO.NET</p>
+              <div className="skill-wrapper">
+                <div className="logo-wrapper">
+                  <img className="logo" src={DBLogo} alt="database logo" />
+                </div>
+                <p className="skill-description">
+                  SQL Server, T-SQL, MongoDB, Entity Framework Core, ADO.NET
+                </p>
+              </div>
             </div>
-          </div>
 
-          {/* CLOUD */}
-          <div className="skill-type-wrapper">
-            <div className="skill-type">
-              <h5 className="skill-h5">Cloud</h5>
-            </div>
-            <div className="skill-wrapper bottom">
-              <div className="logo-wrapper">
-                <img className="logo" src={CloudLogo} alt="cloud logo" />
+            {/* CLOUD */}
+            <div className="skill-type-wrapper">
+              <div className="skill-type">
+                <h5 className="skill-h5">Cloud</h5>
               </div>
-              <p className="skill-description bottom">
-                Cloud app deployment using Azure Web Apps, Azure Databases, Azure Communication Services, and
-                related Azure services.
-              </p>
+              <div className="skill-wrapper bottom">
+                <div className="logo-wrapper">
+                  <img className="logo" src={CloudLogo} alt="cloud logo" />
+                </div>
+                <p className="skill-description bottom">
+                  Cloud app deployment using Azure Web Apps, Azure Databases, Azure Communication Services,
+                  and related Azure services.
+                </p>
+              </div>
             </div>
           </div>
         </div>
