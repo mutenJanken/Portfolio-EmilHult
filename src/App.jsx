@@ -27,53 +27,25 @@ function App() {
 
   return (
     <>
-      <Header />
+      <>
+        <Header />
 
-      <div className="wrapper">
-        {/* NAV LINKS / TABS */}
-        <main>
-          {/* <div className="navlinks-wrapper"> */}
-          {/* <NavLink className="navlink-tab" to="/about">
-              About me
-            </NavLink>
-            <NavLink className="navlink-tab" to="/skills">
-              Skills
-            </NavLink>
-            <NavLink className="navlink-tab" to="/portfolio">
-              Portfolio
-            </NavLink> */}
-          <NavBar />
-          {/* </div> */}
+        <div className="wrapper">
+          <main>
+            <NavBar />
 
-          {/* ROUTES / CONTENT */}
-          {!isLargeScreen ? (
-            // SMALL SCREENS
+            {/* ROUTES – visar bara komponenter när de matchar */}
             <Routes>
               <Route path="/" element={<Navigate to="/about" replace />} />
               <Route path="/about" element={<Aboutme />} />
               <Route path="/skills" element={<Skills />} />
               <Route path="/portfolio" element={<Portfolio />} />
             </Routes>
-          ) : (
-            // BIG SCREENS
-            <div className="large-screen-content">
-              <div>
-                <Aboutme />
-              </div>
-              <div>
-                <Routes>
-                  <Route path="/" element={<Navigate to="/skills" replace />} />
-                  <Route path="/skills" element={<Skills />} />
-                  <Route path="/portfolio" element={<Portfolio />} />
-                  {/* <Route path="*" element={<div>Choose tab</div>} /> */}
-                </Routes>
-              </div>
-            </div>
-          )}
-        </main>
+          </main>
 
-        <Footer />
-      </div>
+          <Footer />
+        </div>
+      </>
     </>
   );
 }
