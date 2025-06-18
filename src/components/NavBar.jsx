@@ -9,7 +9,7 @@ function NavBar() {
         About me
       </NavLink>
       <NavLink className="navlink-tab" to="/skills">
-        Skills
+        Skillset
       </NavLink>
       <NavLink className="navlink-tab" to="/portfolio">
         Portfolio
