@@ -239,7 +239,7 @@ footer {
 
 .contact-description {
   color: #66faa47e;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0.3rem 0;
   width: 30rem;
 
   @media screen and (max-width: 768px) {
@@ -747,34 +747,50 @@ section {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 
-    gap: 1.3rem;
+    gap: 1rem;
   }
 }
 
 .skills-header {
   font-family: "Gugi";
   text-align: center;
-  padding-top: 4rem;
-  margin-bottom: 2rem;
+  // padding-top: 4rem;
+  margin: 4rem 45rem 1.6rem 45rem;
   font-size: 3rem;
   font-weight: 400;
   font-style: italic;
+  border-radius: 1rem;
+  border-bottom: 2px solid #cfcfcf18;  
+  border-right: 4px solid #cfcfcf18; 
 
   @media screen and (max-width: 768px) {
-    display: none;
+    padding: 0;
+    margin: 0.7rem 4.5rem 0.7rem 4.5rem;
+    font-size: 1.7rem;
+    border-radius: 1rem;
+    // border-left: 1px solid #66faa47e;
+    // border-right: 1px solid #66faa47e;
+    // border-top: 1px solid #66faa47e;
+    // border-bottom: 1px solid #66faa47e;
+
+    border-bottom: 2px solid #cfcfcf18;  
+    border-right: 4px solid #cfcfcf18;  
+
+    // display: none;
   }
 }
 
 .skill-type-wrapper {
   background-color: #353941;
-  border-radius: 1rem;
+  border-radius: 2rem;
+  border-bottom-right-radius: 4rem;
   border-left: 5px solid #66faa47e;
-  border-right: 5px solid #66faa47e;
+  border-top: 3px solid #66faa47e;
   height: 12rem;
 
   @media screen and (max-width: 768px) {
-    border-top-left-radius: 0.6rem;
-    border-bottom-left-radius: 0.6rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 2rem;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 5rem;
     border-top: 2px solid #66faa47e;
