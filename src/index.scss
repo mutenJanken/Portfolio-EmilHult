@@ -751,7 +751,7 @@ section {
   }
 }
 
-.skills-header {
+.section-header {
   font-family: "Gugi";
   text-align: center;
   // padding-top: 4rem;
@@ -760,8 +760,8 @@ section {
   font-weight: 400;
   font-style: italic;
   border-radius: 1rem;
-  border-bottom: 2px solid #cfcfcf18;  
-  border-right: 4px solid #cfcfcf18; 
+  border-bottom: 2px solid #cfcfcf18;
+  border-right: 4px solid #cfcfcf18;
 
   @media screen and (max-width: 768px) {
     padding: 0;
@@ -773,8 +773,8 @@ section {
     // border-top: 1px solid #66faa47e;
     // border-bottom: 1px solid #66faa47e;
 
-    border-bottom: 2px solid #cfcfcf18;  
-    border-right: 4px solid #cfcfcf18;  
+    border-bottom: 2px solid #cfcfcf18;
+    border-right: 4px solid #cfcfcf18;
 
     // display: none;
   }
@@ -878,11 +878,133 @@ section {
   }
 }
 
-.large-screen-content {
-  // display: flex;
-  // flex-direction: column;
+// .large-screen-content {
+//   // display: flex;
+//   // flex-direction: column;
 
-  @media (min-width: 1024px) {
-    // flex-direction: row;
+//   @media (min-width: 1024px) {
+//     // flex-direction: row;
+//   }
+// }
+
+// PORTFOLIO
+
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (max-width: 768px) {
   }
+}
+
+.portfolio-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 30rem 0 30rem;
+
+  @media screen and (max-width: 768px) {
+    padding: 0.5rem 0;
+    gap: 1.1rem;
+  }
+}
+.project-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #353941;
+  border-radius: 2rem;
+  border-bottom-right-radius: 6rem;
+  border-bottom-left-radius: 6rem;
+  border-left: 5px solid #66faa47e;
+  border-top: 3px solid #66faa47e;
+  height: 15rem;
+  overflow: hidden;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+    transition: transform 0.4s ease;
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: row;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 4rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 4rem;
+    border-top: 2px solid #66faa47e;
+    border-left: 4px solid #66faa47e;
+
+    width: 100%;
+    // height: 6rem;
+    height: 9rem;
+    // margin-bottom: 1rem;
+
+    border-right: none;
+  }
+}
+
+.project-image-wrapper {
+  // display: flex;
+}
+
+.project-image {
+  width: 15rem;
+  // border-top-right-radius: 0.5rem;
+  // border-bottom-right-radius: 0.5rem;¨
+
+  @media screen and (max-width: 768px) {
+    width: 9rem;
+    height: 9rem;
+  }
+}
+
+.project-header {
+  text-align: center;
+  font-family: "Gugi";
+  font-size: 1.4rem;
+  width: 100%;
+  color: rgb(221, 221, 223);
+  // color: rgb(153, 153, 222);
+  margin: 0.5rem 0 0 0;
+  font-weight: 400;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.1rem;
+    margin: 0.5rem 0 0 0;
+  }
+}
+
+.project-description-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.project-description {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+  // color: rgb(221, 221, 223);
+  color: rgb(153, 153, 222);
+  // width: 40rem;
+  margin: 0rem 0rem 0rem 0rem;
+  width: 100%;
+  padding: 0rem;
+
+  &.bottom {
+    margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+}
+
+.http-link {
+  text-decoration: none;
 }
