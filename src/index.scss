@@ -213,7 +213,7 @@ footer {
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
     padding: 0.5rem 0;
-    margin-top: 4rem;
+    margin-top: 3.1rem;
   }
 
   .get-in-touch-text {
@@ -316,7 +316,7 @@ footer {
 
 section {
   z-index: 3;
-  position: relative;
+  // position: relative;
   width: 100%;
   // box-shadow: 0 5px 20px -3px rgba(18, 18, 18, 0.788);
   // box-shadow: 0 2px 10px rgba(18, 18, 18, 0.548);
@@ -333,50 +333,57 @@ section {
     box-shadow: 0 2px 10px rgba(18, 18, 18, 0.548);
     background-color: #2d3137;
     margin: 0 2.2rem 0 1rem;
-    width: 100%;
+    // width: 100%;
+    width: 21.5rem;
     padding: 1rem 1rem;
   }
 }
 
 .card-under-one {
-  position: absolute;
-  z-index: 2;
-  left: 1.8%;
-  top: 2%;
-  width: 95.7%;
-  height: 89.2%;
-  border-radius: 1rem;
-  background-color: #2c3036;
+  // left: 1.8%;
+  // top: 2%;
+  // width: 95.7%;
+  // height: 89.2%;
   // box-shadow: 0 2px 12px rgba(18, 18, 18, 0.788);
-  box-shadow: 0 2px 12px rgba(18, 18, 18, 0.476);
   display: none;
-
+  
   @media screen and (max-width: 768px) {
+    position: absolute;
+    z-index: 2;
+    border-radius: 1rem;
+    background-color: #2c3036;
+    box-shadow: 0 2px 12px rgba(18, 18, 18, 0.476);
+    margin-right: 1.51rem;
+    margin-left: 1.71rem;
+    margin-top: 1.6rem;
     display: block;
-    left: 7.4%;
-    top: 2.5%;
+    // left: 7.4%;
+    // top: 2.5%;
     width: 86.5%;
     height: 99.4%;
   }
 }
 
 .card-under-two {
-  position: absolute;
-  z-index: 1;
-  left: 2.6%;
-  top: 4.5%;
-  width: 95.7%;
-  height: 89%;
-  border-radius: 1rem;
-  background-color: #282c31;
+  // left: 2.6%;
+  // top: 4.5%;
   // box-shadow: 0 3px 12px rgba(18, 18, 18, 0.788);
-  box-shadow: 0 2px 15px rgba(18, 18, 18, 0.432);
   display: none;
-
+  
   @media screen and (max-width: 768px) {
+    position: absolute;
+    z-index: 1;
+    background-color: #282c31;
+    width: 95.7%;
+    height: 89%;
+    border-radius: 1rem;
+    box-shadow: 0 2px 15px rgba(18, 18, 18, 0.432);
     display: block;
-    left: 10%;
-    top: 5.5%;
+    // left: 10%;
+    // top: 5.5%;
+    margin-right: 1rem;
+    margin-left: 2.5rem;
+    margin-top: 3.3rem;
     width: 86%;
     height: 98.6%;
   }
@@ -712,7 +719,7 @@ section {
 
   @media screen and (max-width: 768px) {
     justify-content: center;
-    padding: 1rem 1rem 0 1rem;
+    padding: 1rem 0rem 0 0rem;
   }
 }
 
