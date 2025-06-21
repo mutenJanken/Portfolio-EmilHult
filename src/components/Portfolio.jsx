@@ -18,9 +18,8 @@ function Portfolio() {
               <div className="project-wrapper">
                 <div className="project-description-wrapper">
                   <h2 className="project-header">Alpha Portal</h2>
-                  <p className="project-description">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, aliquam!
-                  </p>
+                  <p className="project-description">Frontend - React, Javascript, Html, CSS/SCSS.</p>
+                  <p className="project-description">Backend - ASP.MET WebAPI</p>
                 </div>
                 <div className="project-image-wrapper">
                   <img className="project-image" src={AlphaProjectImage} alt="Alpha Project Image" />
@@ -33,9 +32,7 @@ function Portfolio() {
               <div className="project-wrapper">
                 <div className="project-description-wrapper">
                   <h2 className="project-header">Booking Microservice</h2>
-                  <p className="project-description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, sunt?
-                  </p>
+                  <p className="project-description">Microservice for an Event-site using ASP.NET gRPC.</p>
                 </div>
                 <div className="project-image-wrapper">
                   <img
@@ -53,7 +50,7 @@ function Portfolio() {
                 <div className="project-description-wrapper">
                   <h2 className="project-header">Email Microservice</h2>
                   <p className="project-description">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae enim hic.
+                    Microservice for an Event-site using ASP.NET gRPC and Azure Communication Service for emails.
                   </p>
                 </div>
                 <div className="project-image-wrapper">
@@ -71,9 +68,7 @@ function Portfolio() {
               <div className="project-wrapper">
                 <div className="project-description-wrapper">
                   <h2 className="project-header">Movie theater</h2>
-                  <p className="project-description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nisi maxime quisquam!
-                  </p>
+                  <p className="project-description">Using React, Javascript and a simple JSON-Server.</p>
                 </div>
                 <div className="project-image-wrapper">
                   <img
