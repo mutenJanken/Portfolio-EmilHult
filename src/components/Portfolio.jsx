@@ -1,4 +1,3 @@
-import React from "react";
 import AlphaProjectImage from "/src/assets/images/alpha-1-1.png";
 import MovieBookingProjectImage from "/src/assets/images/movie-booking-1-1-image.png";
 import BookingMicroserviceImage from "/src/assets/images/booking-service-provider-1-1-image.png";

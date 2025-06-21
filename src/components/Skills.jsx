@@ -1,4 +1,3 @@
-import React from "react";
 import CsharpLogo from "/src/assets/images/csharplogo.png";
 import ReactLogo from "/src/assets/images/reactlogo.png";
 import DBLogo from "/src/assets/images/dblogo.png";

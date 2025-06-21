@@ -1,6 +1,4 @@
-import React from "react";
 import { NavLink, Routes, Route, Navigate } from "react-router-dom";
-
 
 function NavBar() {
   return (

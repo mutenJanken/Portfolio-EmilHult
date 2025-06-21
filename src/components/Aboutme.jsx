@@ -1,4 +1,3 @@
-import React from "react";
 import ProfilePicture from "/src/assets/images/profile-pic-square.jpg";
 
 function Aboutme() {
