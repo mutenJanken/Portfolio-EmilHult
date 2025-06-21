@@ -829,6 +829,8 @@ section {
 
   @media screen and (max-width: 768px) {
     // border-bottom: 0.5px solid #66faa47e;
+  padding: 0.5rem 1.5rem 1.5rem 1rem;
+
   }
 }
 
@@ -1019,9 +1021,10 @@ section {
   @media screen and (max-width: 768px) {
     border-left: 3px solid #66faa47e;
     // border-right: 3px solid #66faa47e;
+    // border-bottom: 1px solid #66faa47e;
     // border-bottom-right-radius: 4rem;  
     border-top-right-radius: 0.85rem;
-    border-bottom-left-radius: 4rem;
+    border-bottom-left-radius: 7rem;
     width: 8rem;
     // height: 9rem;
   }
@@ -1061,6 +1064,11 @@ section {
   align-items: center;
   width: 100%;
   padding: 0 0.5rem 1rem 0.5rem;
+  
+  @media screen and (max-width: 768px){
+    padding: 0 0.5rem 0.9rem 0.5rem;
+
+  }
 }
 
 .project-description {
@@ -1079,7 +1087,7 @@ section {
   }
 
   @media screen and (max-width: 768px) {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     width: 100%;
     margin-right: -0.5rem;
   }

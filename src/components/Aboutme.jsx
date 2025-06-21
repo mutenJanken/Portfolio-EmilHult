@@ -16,9 +16,10 @@ function Aboutme() {
               <h2 className="greeting-text">Hello, I'm</h2>
               <h1 className="greeting-text-h1">Emil Hult</h1>
               <p className="aboutme-description-wrapper">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, doloremque. Repellendus
-                consequatur beatae eius illo, molestiae unde quos libero cumque obcaecati corrupti ad in
-                deleniti tempore recusandae animi nobis ea!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem unde nihil magnam est
+                provident vel id odio, nam pariatur amet, doloribus repellat ratione! Quisquam minus
+                asperiores porro ad beatae architecto fuga dicta accusamus vel veritatis vero quam libero
+                quasi, id aperiam accusantium illo, repellendus non odit! Eos sint autem quibusdam!
               </p>
               <div className="intrest-horizontal">
                 <div className="intrest">Developer</div>
