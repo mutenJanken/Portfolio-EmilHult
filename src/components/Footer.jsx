@@ -1,4 +1,3 @@
-import React from "react";
 import LinkedInLogo from "/src/assets/images/linkedin.png";
 import GitHubLogo from "/src/assets/images/github.png";
 
