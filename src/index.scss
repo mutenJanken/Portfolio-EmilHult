@@ -346,7 +346,7 @@ section {
   // height: 89.2%;
   // box-shadow: 0 2px 12px rgba(18, 18, 18, 0.788);
   display: none;
-  
+
   @media screen and (max-width: 768px) {
     position: absolute;
     z-index: 2;
@@ -369,7 +369,7 @@ section {
   // top: 4.5%;
   // box-shadow: 0 3px 12px rgba(18, 18, 18, 0.788);
   display: none;
-  
+
   @media screen and (max-width: 768px) {
     position: absolute;
     z-index: 1;
@@ -400,6 +400,16 @@ section {
   justify-content: center;
 }
 
+.header-vertical {
+  display: flex;
+  flex-direction: row;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    padding-bottom: 1.1rem;
+  }
+}
+
 .text-container {
   display: flex;
   align-items: baseline;
@@ -410,7 +420,8 @@ section {
   // width: 100%;
 
   @media screen and (max-width: 768px) {
-    margin-bottom: 1.3rem;
+    // margin-bottom: 1.3rem;
+    margin-bottom: 0rem;
   }
 }
 
@@ -448,13 +459,13 @@ section {
     text-shadow: rgba(174, 173, 173, 0.12) 0 0 3px;
 
     @media screen and (max-width: 768px) {
-      margin-bottom: 0.5rem;
-      margin-top: 0;
-      margin-left: -0.7rem;
+      // margin-bottom: 0.5rem;
+      margin-top: 0rem;
+      margin-left: -0.5rem;
       position: absolute;
       font-size: 55%;
-      top: 5.6%;
-      left: 12.5%;
+      // top: 5.6%;
+      // left: 12.5%;
     }
   }
 }
@@ -787,10 +798,9 @@ section {
     // display: none;
   }
 
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 600px) {
     margin: 0.7rem 3rem 0.7rem 3rem;
   }
-
 }
 
 .skill-type-wrapper {
@@ -829,8 +839,7 @@ section {
 
   @media screen and (max-width: 768px) {
     // border-bottom: 0.5px solid #66faa47e;
-  padding: 0.5rem 1.5rem 1.5rem 1rem;
-
+    padding: 0.5rem 1.5rem 1.5rem 1rem;
   }
 }
 
@@ -999,15 +1008,13 @@ section {
     border-right: none;
   }
 
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 600px) {
     height: auto;
   }
 }
 
 .project-image-wrapper {
   // display: flex;
-  
-  
 }
 
 .project-image {
@@ -1017,12 +1024,12 @@ section {
   width: 15rem;
   // border-top-right-radius: 0.5rem;
   // border-bottom-right-radius: 0.5rem;¨
-  
+
   @media screen and (max-width: 768px) {
     border-left: 3px solid #66faa47e;
     // border-right: 3px solid #66faa47e;
     // border-bottom: 1px solid #66faa47e;
-    // border-bottom-right-radius: 4rem;  
+    // border-bottom-right-radius: 4rem;
     border-top-right-radius: 0.85rem;
     border-bottom-left-radius: 7rem;
     width: 8rem;
@@ -1064,10 +1071,9 @@ section {
   align-items: center;
   width: 100%;
   padding: 0 0.5rem 1rem 0.5rem;
-  
-  @media screen and (max-width: 768px){
-    padding: 0 0.5rem 0.9rem 0.5rem;
 
+  @media screen and (max-width: 768px) {
+    padding: 0 0.5rem 0.9rem 0.5rem;
   }
 }
 
