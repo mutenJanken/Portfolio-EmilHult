@@ -12,7 +12,9 @@ function Skills() {
       <section>
         {/* BACKEND */}
         <div className="skills-vertical">
-          <h2 className="section-header">My skillset</h2>
+            <div className="section-header-center">
+              <h2 className="section-header">My skillset</h2>
+            </div>
           <div className="skill-type-container">
             <div className="skill-type-wrapper">
               <div className="skill-type">

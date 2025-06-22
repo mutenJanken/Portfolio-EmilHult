@@ -66,9 +66,14 @@
 main {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   flex-grow: 1;
 
   @media screen and (max-width: 768px) {
+    flex-grow: 1;
+    display: block;
+  }
+  @media screen and (max-width: 1200px) {
     flex-grow: 1;
     display: block;
   }
@@ -77,6 +82,10 @@ main {
     display: none;
 
     @media screen and (max-width: 768px) {
+      display: flex;
+    }
+
+    @media screen and (max-width: 1200px) {
       display: flex;
     }
   }
@@ -159,11 +168,15 @@ header {
   @media screen and (max-width: 768px) {
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 
   .navlinks-wrapper {
     @media screen and (max-width: 768px) {
+      display: none;
+    }
+
+    @media screen and (max-width: 1200px) {
       display: none;
     }
   }
@@ -192,7 +205,7 @@ footer {
   display: flex;
   justify-content: center;
   height: auto;
-  padding: 1rem 10rem 1rem 10rem;
+  padding: 1rem 10rem 0.6rem 10rem;
   margin-top: auto;
   margin-top: 2rem;
   background-color: #353941;
@@ -214,7 +227,7 @@ footer {
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
     padding: 0.5rem 0;
-    margin-top: 3.1rem;
+    margin-top: 2.6rem;
   }
 
   .get-in-touch-text {
@@ -243,7 +256,6 @@ footer {
   margin: 0 0 0.3rem 0;
   width: 25rem;
   font-size: 0.8rem;
-
 
   @media screen and (max-width: 768px) {
     width: 12rem;
@@ -285,7 +297,7 @@ footer {
   text-decoration: none;
   font-weight: bold;
   color: #ffffff;
-  margin: 10px 0px;
+  margin: 10px 0px 10px 0;
   padding: 9.5px 10px;
   border-radius: 50px;
   transition: background-color 0.4s;
@@ -340,6 +352,14 @@ section {
     width: 21.5rem;
     padding: 1rem 1rem;
   }
+  @media screen and (max-width: 1200px) {
+    box-shadow: 0 2px 10px rgba(18, 18, 18, 0.548);
+    background-color: #2d3137;
+    margin: 0 2.2rem 0 1rem;
+    width: 100%;
+    // width: 1rem;
+    padding: 1rem 1rem;
+  }
 }
 
 .card-under-one {
@@ -350,6 +370,21 @@ section {
   // box-shadow: 0 2px 12px rgba(18, 18, 18, 0.788);
   display: none;
 
+  @media screen and (max-width: 1200px) {
+    position: absolute;
+    z-index: 2;
+    border-radius: 1rem;
+    background-color: #2c3036;
+    box-shadow: 0 2px 12px rgba(18, 18, 18, 0.476);
+    margin-right: 1.51rem;
+    margin-left: 1.71rem;
+    margin-top: 1.6rem;
+    display: block;
+    // left: 7.4%;
+    // top: 2.5%;
+    width: 94%;
+    height: 98.7%;
+  }
   @media screen and (max-width: 768px) {
     position: absolute;
     z-index: 2;
@@ -373,6 +408,23 @@ section {
   // box-shadow: 0 3px 12px rgba(18, 18, 18, 0.788);
   display: none;
 
+  @media screen and (max-width: 1200px) {
+    position: absolute;
+    z-index: 1;
+    background-color: #282c31;
+    width: 95.7%;
+    height: 89%;
+    border-radius: 1rem;
+    box-shadow: 0 2px 15px rgba(18, 18, 18, 0.432);
+    display: block;
+    // left: 10%;
+    // top: 5.5%;
+    margin-right: 1rem;
+    margin-left: 2.5rem;
+    margin-top: 3.3rem;
+    width: 94.1%;
+    height: 97.15%;
+  }
   @media screen and (max-width: 768px) {
     position: absolute;
     z-index: 1;
@@ -532,6 +584,10 @@ section {
   // margin-top: 2rem;
   gap: 1rem;
 
+  @media screen and (max-width:1200px){
+    justify-content: center;
+  }
+
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: row;
@@ -546,14 +602,14 @@ section {
   justify-content: center;
   align-items: center;
   width: 6rem;
-  height: 2rem;
+  height: 1.5rem;
   padding: 0.2rem 0.2rem;
 
   // padding: 1rem 1rem;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
+  border-top-left-radius: 0.7rem;
+  border-top-right-radius: 0.7rem;
+  border-bottom-left-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
   // background-color: #292d3371;
   // background-color: #26282b;
 
@@ -593,7 +649,7 @@ section {
     color: #d7d7d7;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1200px) {
     justify-content: center;
     align-items: center;
     font-size: 0.75rem;
@@ -607,6 +663,7 @@ section {
     margin-bottom: -1px;
     background-color: #292b2e;
     border-top: 2px solid #292b2e;
+    border-right: none;
 
     &.active {
       z-index: 4;
@@ -638,13 +695,14 @@ section {
   justify-content: center;
   align-items: center;
   // height: 100%;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 
   h1 {
     font-family: "Roboto Mono";
     font-style: normal;
-    padding: 0 0.8rem;
+    font-size: 2.5rem;
+    padding: 0rem 0.8rem 0rem 0.8rem;
     margin-top: -1rem;
 
     @media screen and (max-width: 768px) {
@@ -652,21 +710,35 @@ section {
       margin-bottom: -0.5rem;
       text-align: center;
     }
+    @media screen and (max-width: 1200px) {
+      margin-top: -0.5rem;
+      margin-bottom: -0.5rem;
+      text-align: center;
+    }
   }
 
   h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 400;
     font-style: italic;
     margin: 0;
     padding: 0 1rem 0 1rem;
 
+    @media screen and (max-width: 1200px) {
+      font-size: 1.3rem;
+      font-style: normal;
+    }
     @media screen and (max-width: 768px) {
       font-size: 1.3rem;
       font-style: normal;
     }
   }
 
+  @media screen and (max-width: 1200px) {
+    flex-direction: column;
+    padding-top: 9.5rem;
+    padding-bottom: 9.5rem;
+  }
   @media screen and (max-width: 768px) {
     flex-direction: column;
     padding-top: 4rem;
@@ -678,7 +750,7 @@ section {
   display: flex;
   flex-direction: column;
   width: 27rem;
-  padding: 1rem 1rem 1rem 0;
+  padding: 1rem 0rem 1rem 0;
 
   @media screen and (max-width: 768px) {
     padding: 1rem 1rem 1rem 1rem;
@@ -691,6 +763,10 @@ section {
   font-size: 1rem;
   width: 100%;
 
+  @media screen and (max-width: 1200px) {
+    width: 90%;
+    text-align: center;
+  }
   @media screen and (max-width: 768px) {
     width: 90%;
     text-align: center;
@@ -703,11 +779,18 @@ section {
 }
 
 .profile-picture {
-  width: 19.5rem;
+  width: 16rem;
   // height: 17rem;
   border-radius: 3rem;
   margin: 2rem 1rem 2rem 0;
 
+  @media screen and (max-width: 1200px) {
+    margin-top: 1rem;
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 16rem;
+    // height: 10rem;
+  }
   @media screen and (max-width: 768px) {
     margin-top: 1rem;
     margin-right: 0;
@@ -719,13 +802,23 @@ section {
 
 .aboutme-description-wrapper {
   width: 90%;
-  padding: 0 1rem 1rem;
+  padding: 0 1rem 1rem 1rem;
   margin: 0;
   color: rgb(144, 134, 221);
+  font-size: 0.8rem;
 
+  @media screen and (max-width: 1200px) {
+    width: 90%;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 0.75rem;
+    padding-top: 0.5rem;
+  }
   @media screen and (max-width: 768px) {
     padding-top: 1rem;
     text-align: center;
+    font-size: 0.75rem;
+    padding-top: 0.5rem;
   }
 }
 
@@ -736,6 +829,10 @@ section {
   margin: 0;
   padding: 0 1rem;
 
+  @media screen and (max-width: 1200px) {
+    justify-content: center;
+    padding: 1rem 0rem 0 0rem;
+  }
   @media screen and (max-width: 768px) {
     justify-content: center;
     padding: 1rem 0rem 0 0rem;
@@ -764,9 +861,19 @@ section {
   grid-template-columns: repeat(2, auto);
   gap: 1.5rem 1.5rem;
   justify-content: center;
-  padding: 0 28rem;
+  padding: 0 20rem;
   margin-bottom: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 7rem;
 
+  @media screen and (max-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+  }
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
@@ -774,23 +881,44 @@ section {
     padding: 0;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-
     gap: 1rem;
   }
+}
+
+.section-header-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-header {
   font-family: "Gugi";
   text-align: center;
   // padding-top: 4rem;
-  margin: 4rem 45rem 1.6rem 45rem;
-  font-size: 3rem;
+  margin: 4rem 36rem 1.6rem 36rem;
+  font-size: 2rem;
   font-weight: 400;
   font-style: italic;
   border-radius: 1rem;
   border-bottom: 3px solid #cfcfcf18;
   border-right: 6px solid #cfcfcf18;
 
+  @media screen and (max-width: 1200px) {
+    text-align: center;
+    width: 14rem;
+    margin: 0.7rem 4.5rem 0.7rem 4.5rem;
+    font-size: 1.7rem;
+    border-radius: 1rem;
+    // border-left: 1px solid #66faa47e;
+    // border-right: 1px solid #66faa47e;
+    // border-top: 1px solid #66faa47e;
+    // border-bottom: 1px solid #66faa47e;
+
+    border-bottom: 2px solid #cfcfcf18;
+    border-right: 4px solid #cfcfcf18;
+
+    // display: none;
+  }
   @media screen and (max-width: 768px) {
     margin: 0.7rem 4.5rem 0.7rem 4.5rem;
     font-size: 1.7rem;
@@ -817,8 +945,24 @@ section {
   border-bottom-right-radius: 4rem;
   border-left: 5px solid #66faa47e;
   border-top: 3px solid #66faa47e;
-  height: 12rem;
+  width: 22rem;
+  height: 11rem;
   box-shadow: 0 3px 10px rgba(18, 18, 18, 0.353);
+
+  @media screen and (max-width: 1200px) {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 5rem;
+    border-top: 2px solid #66faa47e;
+    border-left: 4px solid #66faa47e;
+
+    width: 70%;
+    height: 100%;
+    // margin-bottom: 1rem;
+
+    border-right: none;
+  }
 
   @media screen and (max-width: 768px) {
     border-top-left-radius: 1rem;
@@ -872,7 +1016,7 @@ section {
 
   .skill-top-h5 {
     font-family: "Gugi";
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: rgb(221, 221, 223);
     // color: rgb(153, 153, 222);
     margin: 1rem 0 0 0;
@@ -897,7 +1041,7 @@ section {
   }
   .skill-h5 {
     font-family: "Gugi";
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: rgb(221, 221, 223);
     // color: rgb(153, 153, 222);
     margin: 1rem 0 0 0;
@@ -909,16 +1053,23 @@ section {
     // border-right: 4px solid #cfcfcf18;
     border-bottom: 2px solid #cfcfcf18;
 
-    @media screen and (max-width: 768px) {
-      @media screen and (max-width: 768px) {
-        border-radius: 0.6rem;
-        border-bottom-right-radius: 2rem;
-        border-bottom-left-radius: 1rem;
+    @media screen and (max-width: 1200px) {
+      border-radius: 0.6rem;
+      border-bottom-right-radius: 2rem;
+      border-bottom-left-radius: 1rem;
 
-        // border-bottom-left-radius: 0rem;
-        // border-right: 4px solid #cfcfcf18;
-        border-bottom: 2px solid #cfcfcf18;
-      }
+      // border-bottom-left-radius: 0rem;
+      // border-right: 4px solid #cfcfcf18;
+      border-bottom: 2px solid #cfcfcf18;
+    }
+    @media screen and (max-width: 768px) {
+      border-radius: 0.6rem;
+      border-bottom-right-radius: 2rem;
+      border-bottom-left-radius: 1rem;
+
+      // border-bottom-left-radius: 0rem;
+      // border-right: 4px solid #cfcfcf18;
+      border-bottom: 2px solid #cfcfcf18;
     }
   }
 
@@ -929,7 +1080,7 @@ section {
 }
 
 .skill-description {
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-weight: 300;
   // color: rgb(221, 221, 223);
   color: rgb(153, 153, 222);
@@ -960,18 +1111,26 @@ section {
 .portfolio-container {
   display: flex;
   flex-direction: column;
+  padding: 7rem 0rem;
 
   @media screen and (max-width: 768px) {
+    padding: 0rem 0rem;
   }
 }
 
 .portfolio-wrapper {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 2rem;
-  padding: 0 30rem 0 30rem;
+  // padding: 0 23rem 0 23rem;
   margin-bottom: 6rem;
 
+  @media screen and (max-width: 1200px) {
+    padding: 0.5rem 0;
+    margin-bottom: 0;
+    gap: 1.1rem;
+  }
   @media screen and (max-width: 768px) {
     padding: 0.5rem 0;
     margin-bottom: 0;
@@ -986,17 +1145,34 @@ section {
   border-radius: 2rem;
   border-bottom-right-radius: 6rem;
   border-bottom-left-radius: 6rem;
-  border-top: 6px solid #66faa47e;
-  border-left: 4px solid #66faa47e;
+  border-top: 4px solid #66faa47e;
+  border-left: 3px solid #66faa47e;
   box-shadow: 0 3px 10px rgba(18, 18, 18, 0.353);
-
-  height: 15rem;
+  width: 32rem;
+  height: 10rem;
   overflow: hidden;
   cursor: pointer;
 
   &:hover {
     transform: scale(1.05);
     transition: transform 0.4s ease;
+  }
+
+  @media screen and (max-width: 1200px) {
+    flex-direction: row;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 4rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 4rem;
+    border-top: 3px solid #66faa47e;
+    border-left: 3px solid #66faa47e;
+
+    // width: 90%;
+    // height: 6rem;
+    height: 8rem;
+    // margin-bottom: 1rem;
+
+    border-right: none;
   }
 
   @media screen and (max-width: 768px) {
@@ -1026,10 +1202,10 @@ section {
 }
 
 .project-image {
-  border-left: 6px solid #66faa47e;
+  border-left: 4px solid #66faa47e;
   border-bottom-left-radius: 6rem;
   // border-top-left-radius: 3rem;
-  width: 15rem;
+  width: 10rem;
   // border-top-right-radius: 0.5rem;
   // border-bottom-right-radius: 0.5rem;¨
 
@@ -1048,7 +1224,7 @@ section {
 .project-header {
   text-align: center;
   font-family: "Gugi";
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   width: auto;
   color: rgb(221, 221, 223);
   // color: rgb(153, 153, 222);
@@ -1087,7 +1263,7 @@ section {
 
 .project-description {
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 300;
   // color: rgb(221, 221, 223);
   color: rgb(153, 153, 222);
