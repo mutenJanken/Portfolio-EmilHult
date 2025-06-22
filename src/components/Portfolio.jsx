@@ -10,15 +10,17 @@ function Portfolio() {
       <div className="card-under-two">UNDER2</div>
       <section>
         <div className="portfolio-container">
-          <h2 className="section-header">My Portfolio</h2>
+          <div className="section-header-center">
+            <h2 className="section-header">My Portfolio</h2>
+          </div>
           <div className="portfolio-wrapper">
             {/* ALPHA PORTAL  */}
             <a className="http-link" href="https://github.com/mutenJanken/alpha_project">
               <div className="project-wrapper">
                 <div className="project-description-wrapper">
                   <h2 className="project-header">Alpha Portal</h2>
-                  <p className="project-description">Frontend - React, Javascript, Html, CSS/SCSS.</p>
                   <p className="project-description">Backend - ASP.MET WebAPI</p>
+                  <p className="project-description">Frontend - React, Javascript, Html, CSS/SCSS.</p>
                 </div>
                 <div className="project-image-wrapper">
                   <img className="project-image" src={AlphaProjectImage} alt="Alpha Project Image" />
@@ -49,7 +51,8 @@ function Portfolio() {
                 <div className="project-description-wrapper">
                   <h2 className="project-header">Email Microservice</h2>
                   <p className="project-description">
-                    Microservice for an Event-site using ASP.NET gRPC and Azure Communication Service for emails.
+                    Microservice for an Event-site using ASP.NET gRPC and Azure Communication Service for
+                    emails.
                   </p>
                 </div>
                 <div className="project-image-wrapper">
