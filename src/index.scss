@@ -107,7 +107,8 @@ h1 {
   font-weight: inherit;
   font-style: italic;
   margin: 0px;
-  font-size: 350%;
+  font-size: 280%;
+  font-size: 2.6rem;
   text-shadow: rgba(174, 173, 173, 0.233) 0 0 3px;
 
   @media screen and (max-width: 768px) {
@@ -219,14 +220,14 @@ footer {
   .get-in-touch-text {
     // font-family: "IBM Plex Sans Condensed";
     font-family: "Gugi";
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 350;
     font-style: italic;
     color: #e7e7e7;
     text-shadow: rgba(174, 173, 173, 0.308) 0 0 2px;
 
     @media screen and (max-width: 768px) {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       text-align: center;
     }
   }
@@ -240,19 +241,21 @@ footer {
 .contact-description {
   color: #66faa47e;
   margin: 0 0 0.3rem 0;
-  width: 30rem;
+  width: 25rem;
+  font-size: 0.8rem;
+
 
   @media screen and (max-width: 768px) {
-    width: 20rem;
+    width: 12rem;
     margin: 0 0 0.5rem 0;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     text-align: center;
   }
 }
 
 .socials-footer-logo {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 1rem;
   margin-right: 0.5rem;
   margin-top: 0.4rem;
@@ -282,11 +285,11 @@ footer {
   text-decoration: none;
   font-weight: bold;
   color: #ffffff;
-  margin: 10px 5px;
+  margin: 10px 0px;
   padding: 9.5px 10px;
   border-radius: 50px;
   transition: background-color 0.4s;
-  font-size: 1rem;
+  font-size: 0.75rem;
 
   &:hover {
     background-color: rgb(144, 134, 221);
@@ -414,7 +417,7 @@ section {
   display: flex;
   align-items: baseline;
   justify-content: start;
-  margin: 0.5rem 0.5rem 0.5rem 1rem;
+  margin: 0.7rem 0.5rem 0.5rem 1rem;
 
   gap: 3px;
   // width: 100%;
@@ -450,9 +453,9 @@ section {
 
     // top: 6%;
     // left: 20.5%;
-    margin-top: 1.7rem;
+    margin-top: 1.4rem;
     margin-left: -1rem;
-    font-size: 110%;
+    font-size: 85%;
     font-style: italic;
     font-weight: 400;
     color: rgb(144, 134, 221);
@@ -482,7 +485,7 @@ section {
   animation: blink 1s infinite;
   position: relative;
   top: -2px;
-  left: 13.9rem;
+  left: 10.7rem;
   font-size: 150%;
 
   @media screen and (max-width: 768px) {
@@ -505,7 +508,7 @@ section {
   margin: 0.5rem 1rem 0.5rem 0;
 }
 .socials-logo {
-  width: 3.5rem;
+  width: 40px;
   border-radius: 15px;
   margin-left: 0.5rem;
   margin-top: 0.5rem;
@@ -524,6 +527,7 @@ section {
   display: flex;
   justify-content: start;
   flex-direction: row;
+  margin-top: 0.3rem;
   margin-left: 1rem;
   // margin-top: 2rem;
   gap: 1rem;
@@ -541,9 +545,9 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 8rem;
+  width: 6rem;
   height: 2rem;
-  padding: 0.2rem 0.5rem;
+  padding: 0.2rem 0.2rem;
 
   // padding: 1rem 1rem;
   border-top-left-radius: 1rem;
@@ -553,13 +557,16 @@ section {
   // background-color: #292d3371;
   // background-color: #26282b;
 
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 400;
   text-decoration: none;
   color: rgb(144, 134, 221);
   // color: #66faa47e;
 
   // clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+
+  border-right: 3px solid #353941;
+  border-bottom: 1px solid #353941;
 
   &:hover {
     background-color: rgb(144, 134, 221);
@@ -578,9 +585,10 @@ section {
     // border: 1.5px solid #66faa47e;
 
     // border: 1.5px solid #cfcfcf18;
-    border-left: 3px solid #66faa47e;
+    // border-left: 3px solid #66faa47e;
     border-right: 3px solid #66faa47e;
-    padding: 0.2rem 0.5rem;
+    border-bottom: 1px solid #66faa47e;
+    // padding: 0.2rem 0rem;
 
     color: #d7d7d7;
   }
