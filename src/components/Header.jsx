@@ -6,6 +6,7 @@ function header() {
   return (
     <header>
       <div className="header-fullname">
+        <div className="header-vertical">
         <div className="text-container">
           <small className="syntax-style">..\</small>
           <h1>Emil Hult</h1>
@@ -15,6 +16,7 @@ function header() {
         <div className="developer-type-wrapper">
           {/* <small className="syntax-style small">{" > "} </small> */}
           <small className="syntax-style text">.NET developer in training</small>
+        </div>
         </div>
       </div>
 
