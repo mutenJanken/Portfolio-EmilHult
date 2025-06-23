@@ -7,7 +7,7 @@ function Footer() {
       <div className="contact-wrapper">
         <div className="get-in-touch-text">Get in Touch</div>
         <p className="contact-description">
-          Feel free to hit me up via email, LinkedIn, or checkout what im up to on GitHub.
+          Feel free to hit me up via email, LinkedIn, or checkout what I'm up to on GitHub.
         </p>
         <div className="horizontal-wrapper">
           <div className="socials-footer-wrapper">
