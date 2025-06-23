@@ -584,7 +584,7 @@ section {
   // margin-top: 2rem;
   gap: 1rem;
 
-  @media screen and (max-width:1200px){
+  @media screen and (max-width: 1200px) {
     justify-content: center;
   }
 
@@ -861,17 +861,19 @@ section {
   grid-template-columns: repeat(2, auto);
   gap: 1.5rem 1.5rem;
   justify-content: center;
-  padding: 0 20rem;
-  margin-bottom: 6rem;
-  padding-top: 4rem;
+  padding-top: 1.5rem;
   padding-bottom: 7rem;
+
+  @media screen and (max-width: 3000px) {
+    padding-bottom: 3rem;
+  }
 
   @media screen and (max-width: 1200px) {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0;
-    padding: 0;
+    padding-bottom: 3rem;
     gap: 1rem;
   }
   @media screen and (max-width: 768px) {
@@ -895,10 +897,11 @@ section {
   font-family: "Gugi";
   text-align: center;
   // padding-top: 4rem;
-  margin: 4rem 36rem 1.6rem 36rem;
+  margin: 1rem 0rem 0rem 0rem;
   font-size: 2rem;
   font-weight: 400;
   font-style: italic;
+  width: 16rem;
   border-radius: 1rem;
   border-bottom: 3px solid #cfcfcf18;
   border-right: 6px solid #cfcfcf18;
@@ -906,7 +909,7 @@ section {
   @media screen and (max-width: 1200px) {
     text-align: center;
     width: 14rem;
-    margin: 0.7rem 4.5rem 0.7rem 4.5rem;
+    margin: 0.7rem 0rem 0.7rem 0rem;
     font-size: 1.7rem;
     border-radius: 1rem;
     // border-left: 1px solid #66faa47e;
@@ -1111,7 +1114,7 @@ section {
 .portfolio-container {
   display: flex;
   flex-direction: column;
-  padding: 7rem 0rem;
+  padding: 0rem 0rem;
 
   @media screen and (max-width: 768px) {
     padding: 0rem 0rem;
@@ -1122,8 +1125,8 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
-  // padding: 0 23rem 0 23rem;
+  gap: 1.5rem;
+  padding: 1.5rem 0rem 0rem 0rem;
   margin-bottom: 6rem;
 
   @media screen and (max-width: 1200px) {
@@ -1148,7 +1151,7 @@ section {
   border-top: 4px solid #66faa47e;
   border-left: 3px solid #66faa47e;
   box-shadow: 0 3px 10px rgba(18, 18, 18, 0.353);
-  width: 32rem;
+  width: 34rem;
   height: 10rem;
   overflow: hidden;
   cursor: pointer;
@@ -1167,7 +1170,7 @@ section {
     border-top: 3px solid #66faa47e;
     border-left: 3px solid #66faa47e;
 
-    // width: 90%;
+    width: 29rem;
     // height: 6rem;
     height: 8rem;
     // margin-bottom: 1rem;
@@ -1203,12 +1206,22 @@ section {
 
 .project-image {
   border-left: 4px solid #66faa47e;
-  border-bottom-left-radius: 6rem;
+  border-bottom-left-radius: 3rem;
   // border-top-left-radius: 3rem;
   width: 10rem;
   // border-top-right-radius: 0.5rem;
   // border-bottom-right-radius: 0.5rem;¨
 
+  @media screen and (max-width: 1200px) {
+    border-left: 3px solid #66faa47e;
+    // border-right: 3px solid #66faa47e;
+    // border-bottom: 1px solid #66faa47e;
+    // border-bottom-right-radius: 4rem;
+    // border-top-right-radius: 0.85rem;
+    border-bottom-left-radius: 4rem;
+    width: 8rem;
+    // height: 9rem;
+  }
   @media screen and (max-width: 768px) {
     border-left: 3px solid #66faa47e;
     // border-right: 3px solid #66faa47e;
