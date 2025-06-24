@@ -10,12 +10,123 @@ function Skills() {
       <div className="card-under-one">UNDER1</div>
       <div className="card-under-two">UNDER2</div>
       <section>
-        {/* BACKEND */}
         <div className="skills-vertical">
-            <div className="section-header-center">
-              <h2 className="section-header">My skillset</h2>
-            </div>
+          <div className="section-header-center">
+            <h2 className="section-header">My skillset</h2>
+          </div>
           <div className="skill-type-container">
+            <div className="skill-type-wrapper">
+              <div className="skill-type">
+                <h5 className="skill-h5">
+                  Backend<div className="syntax-sign">{"{ }"}</div>
+                </h5>
+              </div>
+              <div className="skill-wrapper-new">
+                <div className="logo-wrapper">
+                  <img className="logo" src={CsharpLogo} alt="csharp logo" />
+                </div>
+                <div className="small-skills-vertical">
+                  <div className="skill-gap-wrapper">
+                    <div className="skill">C#</div>
+                    <div className="skill">.NET</div>
+                    <div className="skill">ASP.NET</div>
+                  </div>
+                  <div className="skill-gap-wrapper">
+                    <div className="skill">REST API</div>
+                    <div className="skill">gRPC</div>
+                  </div>
+                  <div className="skill-gap-wrapper">
+                    <div className="skill">Microservice Architecture</div>
+                  </div>
+                  <div className="skill-gap-wrapper">
+                    <div className="skill">Monolithic architecture</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="skill-type-wrapper">
+              <div className="skill-type">
+                <h5 className="skill-h5">
+                  Frontend<div className="syntax-sign">{"</>"}</div>
+                </h5>
+              </div>
+              <div className="skill-wrapper">
+                <div className="logo-wrapper">
+                  <img className="logo" src={ReactLogo} alt="html logo" />
+                </div>
+                <div className="small-skills-vertical">
+                  <div className="skill-gap-wrapper">
+                    <div className="skill">Javascript</div>
+                    <div className="skill">Html</div>
+                    <div className="skill">Css/Scss</div>
+                  </div>
+                  <div className="skill-gap-wrapper">
+                    <div className="skill">React</div>
+                  </div>
+                  <div className="skill-gap-wrapper">
+                    <div className="skill">ASP.NET MVC</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="skill-type-wrapper">
+              <div className="skill-type">
+                <h5 className="skill-h5">
+                  Database<div className="syntax-sign">{"[ ]"}</div>
+                </h5>
+              </div>
+              <div className="skill-wrapper">
+                <div className="logo-wrapper">
+                  <img className="logo" src={DBLogo} alt="database logo" />
+                </div>
+                <div className="small-skills-vertical">
+                  <div className="skill-gap-wrapper">
+                    <div className="skill">SQL Server</div>
+                    <div className="skill">T-SQL</div>
+                    <div className="skill">MongoDB</div>
+                  </div>
+                  <div className="skill-gap-wrapper">
+                    <div className="skill">Entity Framework Core</div>
+                  </div>
+                  <div className="skill-gap-wrapper">
+                    <div className="skill">ADO.NET</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* CLOUD */}
+            <div className="skill-type-wrapper">
+              <div className="skill-type">
+                <h5 className="skill-h5">
+                  Cloud<div className="syntax-sign">{"( )"}</div>
+                </h5>
+              </div>
+              <div className="skill-wrapper bottom">
+                <div className="logo-wrapper">
+                  <img className="logo" src={CloudLogo} alt="cloud logo" />
+                </div>
+                <div className="small-skills-vertical">
+                  <div className="skill-gap-wrapper">
+                    <div className="skill">Azure Web App</div>
+                    <div className="skill">Azure Database</div>
+                  </div>
+                  <div className="skill-gap-wrapper">
+                    <div className="skill">Azure Communication Service</div>
+                  </div>
+                  <div className="skill-gap-wrapper">
+                  </div>
+                </div>
+                {/* <p className="skill-description bottom">
+                  Cloud app deployment using Azure Web Apps, Azure Databases, Azure Communication Services,
+                  and related Azure services.
+                </p> */}
+              </div>
+            </div>
+
+            {/* BACKEND */}
             <div className="skill-type-wrapper">
               <div className="skill-type">
                 <h5 className="skill-top-h5">Backend</h5>
@@ -31,9 +142,12 @@ function Skills() {
             </div>
 
             {/* FRONTEND*/}
+
             <div className="skill-type-wrapper">
               <div className="skill-type">
-                <h5 className="skill-h5">Frontend</h5>
+                <h5 className="skill-h5">
+                  Frontend<div className="syntax-sign">{""}</div>
+                </h5>
               </div>
               <div className="skill-wrapper">
                 <div className="logo-wrapper">
