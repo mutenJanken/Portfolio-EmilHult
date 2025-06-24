@@ -244,6 +244,18 @@ footer {
       text-align: center;
     }
   }
+
+  .copyright{
+    font-size: 0.7rem;
+    font-weight: 500;
+
+    @media screen and (max-width: 768px){
+      font-size: 0.45rem;
+      text-align: center;
+      padding: 0.2rem;
+      color: #81899a;
+    }
+  }
 }
 
 .socials-footer-wrapper {
@@ -256,6 +268,7 @@ footer {
   margin: 0 0 0.3rem 0;
   width: 25rem;
   font-size: 0.8rem;
+  font-weight: 450;
 
   @media screen and (max-width: 768px) {
     width: 12rem;
@@ -806,6 +819,7 @@ section {
   margin: 0;
   color: rgb(144, 134, 221);
   font-size: 0.8rem;
+  font-weight: 500;
 
   @media screen and (max-width: 1200px) {
     width: 90%;
@@ -846,7 +860,7 @@ section {
   color: #e6e6e6;
   font-family: "Gugi";
   font-size: 0.7rem;
-  border-radius: 1rem;
+  border-radius: 0.8rem;
   box-shadow: 0 3px 2px rgba(37, 37, 37, 0.401);
 
   @media screen and (max-width: 768px) {
@@ -1324,7 +1338,7 @@ section {
 .project-description {
   text-align: center;
   font-size: 0.8rem;
-  font-weight: 300;
+  font-weight: 500;
   // color: rgb(221, 221, 223);
   color: rgb(153, 153, 222);
   // width: 40rem;

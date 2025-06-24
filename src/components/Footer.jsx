@@ -23,6 +23,7 @@ function Footer() {
             <div>Contact Me</div>
           </a>
         </div>
+      <div className="copyright">@ 2025 Emil Hult. All rights reserved.</div>
       </div>
     </footer>
   );
