@@ -526,7 +526,7 @@ section {
 }
 
 .blinking-cursor::after {
-  content: "|";
+  content: "_";
   font-family: "Gugi";
 
   font-style: italic;
@@ -534,16 +534,16 @@ section {
   // text-shadow: rgba(255, 255, 255, 0.253) 0 0 2px;
   text-shadow: rgba(13, 13, 13, 0.757) 0 0 3px;
 
-  animation: blink 1s infinite;
+  animation: blink 1.5s infinite;
   position: relative;
   top: -2px;
   left: 10.7rem;
   font-size: 150%;
 
   @media screen and (max-width: 768px) {
-    font-size: 170%;
+    font-size: 130%;
     top: -2.8px;
-    left: -0.2rem;
+    left: -0rem;
   }
 }
 
@@ -924,7 +924,7 @@ section {
   }
   @media screen and (max-width: 768px) {
     margin: 0.7rem 4.5rem 0.7rem 4.5rem;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     border-radius: 1rem;
     // border-left: 1px solid #66faa47e;
     // border-right: 1px solid #66faa47e;
@@ -938,7 +938,7 @@ section {
   }
 
   @media screen and (max-width: 600px) {
-    margin: 0.7rem 0rem 0.7rem 0rem;
+    margin: 0.7rem 0rem 0.3rem 0rem;
   }
 }
 
@@ -1016,9 +1016,10 @@ section {
   display: flex;
   justify-content: start;
   margin-left: 4.7rem;
-
+  
   .skill-top-h5 {
     font-family: "Gugi";
+    font-family: "Roboto Mono";
     font-size: 1.1rem;
     color: rgb(221, 221, 223);
     // color: rgb(153, 153, 222);
@@ -1042,7 +1043,9 @@ section {
       border-bottom: 2px solid #cfcfcf18;
     }
   }
-  .skill-h5 {
+
+  .skill-h5 {    
+    gap: 0.6rem;
     font-family: "Gugi";
     font-size: 1.1rem;
     color: rgb(221, 221, 223);
@@ -1066,13 +1069,26 @@ section {
       border-bottom: 2px solid #cfcfcf18;
     }
     @media screen and (max-width: 768px) {
+      display: flex;  
+      align-items: center;
       border-radius: 0.6rem;
       border-bottom-right-radius: 2rem;
       border-bottom-left-radius: 1rem;
-
+      
       // border-bottom-left-radius: 0rem;
       // border-right: 4px solid #cfcfcf18;
       border-bottom: 2px solid #cfcfcf18;
+
+      .syntax-sign{
+      color: rgb(143, 143, 155);
+
+        font-family: "Roboto Mono";
+        font-family: "Gugi";
+        font-size: 1rem;
+        font-weight: 800;
+        // padding-bottom: 0.3rem;
+        margin-top: -0.1rem;
+      }
     }
   }
 
@@ -1100,14 +1116,45 @@ section {
   }
 }
 
-// .large-screen-content {
-//   // display: flex;
-//   // flex-direction: column;
+// TEST
 
-//   @media (min-width: 1024px) {
-//     // flex-direction: row;
-//   }
-// }
+.skill-wrapper-new {
+  display: flex;
+  padding: 0.5rem 1rem 1rem 1rem;
+
+  &.bottom {
+    border: none;
+    padding-bottom: 1rem 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    // border-bottom: 0.5px solid #66faa47e;
+    padding: 0.5rem 1.5rem 1.5rem 1rem;
+  }
+}
+
+.small-skills-vertical{
+  display: flex;
+  flex-direction: column;
+  gap:0.5rem;
+}
+
+.skill-gap-wrapper{
+  display: flex;
+  gap: 0.5rem;
+}
+.skill{
+  // background-color: rgb(79, 79, 113);
+  background-color: rgb(66, 66, 94);
+  height: 1.05rem;
+  border: 1.2px solid rgb(69, 69, 73);
+  // border: 1px solid rgb(153, 153, 222);
+  border-radius: 0.4rem;
+  padding: 0.1rem 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color:rgb(153, 153, 222);
+}
 
 // PORTFOLIO
 
