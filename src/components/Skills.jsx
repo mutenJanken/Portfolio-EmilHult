@@ -111,6 +111,8 @@ function Skills() {
                 <div className="small-skills-vertical">
                   <div className="skill-gap-wrapper">
                     <div className="skill">Azure Web App</div>
+                  </div>
+                  <div className="skill-gap-wrapper">
                     <div className="skill">Azure Database</div>
                   </div>
                   <div className="skill-gap-wrapper">
