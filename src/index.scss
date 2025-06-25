@@ -265,6 +265,8 @@ footer {
 
 .contact-description {
   color: #66faa47e;
+  color: #81899a;
+
   margin: 0 0 0.3rem 0;
   width: 25rem;
   font-size: 0.8rem;
@@ -818,6 +820,8 @@ section {
   padding: 0 1rem 1rem 1rem;
   margin: 0;
   color: rgb(144, 134, 221);
+  color: #81899a;
+
   font-size: 0.8rem;
   font-weight: 500;
 
@@ -1157,6 +1161,11 @@ section {
   display: flex;
   gap: 0.5rem;
 }
+.skill-gap-portfolio-wrapper{
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
 .skill{
   // background-color: rgb(79, 79, 113);
   background-color: rgb(66, 66, 94);
@@ -1240,6 +1249,7 @@ section {
   }
 
   @media screen and (max-width: 768px) {
+    display: flex;
     flex-direction: row;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 4rem;
@@ -1338,9 +1348,11 @@ section {
 .project-description {
   text-align: center;
   font-size: 0.8rem;
-  font-weight: 500;
+  font-weight: 450;
   // color: rgb(221, 221, 223);
   color: rgb(153, 153, 222);
+  color: #81899a;
+
   // width: 40rem;
   margin: 0rem 0rem 0rem 0rem;
   width: 100%;

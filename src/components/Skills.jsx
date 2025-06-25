@@ -118,8 +118,7 @@ function Skills() {
                   <div className="skill-gap-wrapper">
                     <div className="skill">Azure Communication Service</div>
                   </div>
-                  <div className="skill-gap-wrapper">
-                  </div>
+                  <div className="skill-gap-wrapper"></div>
                 </div>
                 {/* <p className="skill-description bottom">
                   Cloud app deployment using Azure Web Apps, Azure Databases, Azure Communication Services,
@@ -128,7 +127,7 @@ function Skills() {
               </div>
             </div>
 
-            {/* BACKEND */}
+            {/* BACKEND
             <div className="skill-type-wrapper">
               <div className="skill-type">
                 <h5 className="skill-top-h5">Backend</h5>
@@ -145,7 +144,7 @@ function Skills() {
 
             {/* FRONTEND*/}
 
-            <div className="skill-type-wrapper">
+            {/* <div className="skill-type-wrapper">
               <div className="skill-type">
                 <h5 className="skill-h5">
                   Frontend<div className="syntax-sign">{""}</div>
@@ -157,10 +156,10 @@ function Skills() {
                 </div>
                 <p className="skill-description">React, ASP.NET MVC, Javascript, Html, CSS/SCSS</p>
               </div>
-            </div>
+            </div> */}
 
             {/* DATABASE */}
-            <div className="skill-type-wrapper">
+            {/* <div className="skill-type-wrapper">
               <div className="skill-type">
                 <h5 className="skill-h5">Database</h5>
               </div>
@@ -172,10 +171,10 @@ function Skills() {
                   SQL Server, T-SQL, MongoDB, Entity Framework Core, ADO.NET
                 </p>
               </div>
-            </div>
+            </div> */}
 
-            {/* CLOUD */}
-            <div className="skill-type-wrapper">
+            {/* CLOUD 
+              <div className="skill-type-wrapper">
               <div className="skill-type">
                 <h5 className="skill-h5">Cloud</h5>
               </div>
@@ -188,7 +187,7 @@ function Skills() {
                   and related Azure services.
                 </p>
               </div>
-            </div>
+            </div>  */}
           </div>
         </div>
       </section>

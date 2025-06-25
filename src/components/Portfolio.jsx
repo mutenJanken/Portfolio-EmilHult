@@ -81,6 +81,35 @@ function Portfolio() {
                 </div>
               </div>
             </a>
+            {/* MOVIE BOOKING  */}
+            <a className="http-link" href="https://github.com/mutenJanken/movie-theater">
+              <div className="project-wrapper">
+                <div className="project-description-wrapper">
+                  <h2 className="project-header">Movie theater</h2>
+                  <div className="small-skills-vertical">
+                    <div className="skill-gap-wrapper">
+                      <div className="skill">Javascript</div>
+                      <div className="skill">Html</div>
+                    </div>
+                    <div className="skill-gap-wrapper">
+                      <div className="skill">Css/Scss</div>
+                      <div className="skill">React</div>
+                    </div>
+                    <div className="skill-gap-portfolio-wrapper">
+                      <div className="skill">ASP.NET MVC</div>
+                    </div>
+                  </div>
+                  {/* <p className="project-description">Using React, Javascript and a simple JSON-Server.</p> */}
+                </div>
+                <div className="project-image-wrapper">
+                  <img
+                    className="project-image"
+                    src={MovieBookingProjectImage}
+                    alt="Movie booking Project Image"
+                  />
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </section>
