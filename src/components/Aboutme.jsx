@@ -19,7 +19,7 @@ function Aboutme() {
               <p className="aboutme-description-wrapper">
                 I'm currently studying .NET Fullstack development and just getting started on my journey as a
                 developer. I enjoy working with both backend and frontend, and I love finding that sweet spot
-                where logic meets design. I'm always looking to learn, explore, and improve – both as a
+                where logic meets design. I'm always looking to learn, explore and improve, both as a
                 programmer and as a problem-solver.
               </p>
               <div className="intrest-horizontal">

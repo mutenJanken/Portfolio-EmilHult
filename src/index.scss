@@ -657,8 +657,10 @@ section {
 
     // border: 1.5px solid #cfcfcf18;
     // border-left: 3px solid #66faa47e;
-    border-right: 3px solid #66faa47e;
-    border-bottom: 1px solid #66faa47e;
+    // border-right: 3px solid #66faa47e;
+    // border-bottom: 1px solid #66faa47e;
+    border-right: 3px solid #cfcfcf16;
+    border-bottom: 1px solid #cfcfcf16;
     // padding: 0.2rem 0rem;
 
     color: #d7d7d7;
@@ -677,7 +679,7 @@ section {
     border-bottom-right-radius: 0rem;
     margin-bottom: -1px;
     background-color: #292b2e;
-    border-top: 2px solid #292b2e;
+    // border-top: 2px solid #292b2e;
     border-right: none;
 
     &.active {
@@ -692,7 +694,7 @@ section {
       // GREEN
       // border-top: 1.5px solid #66faa47e;
 
-      border-top: 2px solid #dbdbdb27;
+      // border-top: 2px solid #dbdbdb27;
 
       border-left: none;
       border-right: none;
@@ -945,8 +947,8 @@ section {
   font-style: italic;
   width: 16rem;
   border-radius: 1rem;
-  border-bottom: 3px solid #cfcfcf18;
-  border-right: 6px solid #cfcfcf18;
+  // border-bottom: 3px solid #cfcfcf18;
+  // border-right: 6px solid #cfcfcf18;
 
   @media screen and (max-width: 1200px) {
     text-align: center;
@@ -959,8 +961,8 @@ section {
     // border-top: 1px solid #66faa47e;
     // border-bottom: 1px solid #66faa47e;
 
-    border-bottom: 2px solid #cfcfcf18;
-    border-right: 4px solid #cfcfcf18;
+    // border-bottom: 2px solid #cfcfcf18;
+    // border-right: 4px solid #cfcfcf18;
 
     // display: none;
   }
@@ -973,8 +975,8 @@ section {
     // border-top: 1px solid #66faa47e;
     // border-bottom: 1px solid #66faa47e;
 
-    border-bottom: 2px solid #cfcfcf18;
-    border-right: 4px solid #cfcfcf18;
+    // border-bottom: 2px solid #cfcfcf18;
+    // border-right: 4px solid #cfcfcf18;
 
     // display: none;
   }
@@ -1104,31 +1106,31 @@ section {
     margin: 1rem 0 0 0;
     font-weight: 400;
     padding: 0.1rem 1.1rem 0.1rem 1rem;
-    border-radius: 0.8rem;
-    border-bottom-right-radius: 1.2rem;
+    // border-radius: 0.8rem;
+    // border-bottom-right-radius: 1.2rem;
     // border-bottom-left-radius: 0rem;
     // border-right: 4px solid #cfcfcf18;
-    border-bottom: 2px solid #cfcfcf18;
+    // border-bottom: 2px solid #cfcfcf18;
 
     @media screen and (max-width: 1200px) {
-      border-radius: 0.6rem;
-      border-bottom-right-radius: 2rem;
-      border-bottom-left-radius: 1rem;
+      // border-radius: 0.6rem;
+      // border-bottom-right-radius: 2rem;
+      // border-bottom-left-radius: 1rem;
 
       // border-bottom-left-radius: 0rem;
       // border-right: 4px solid #cfcfcf18;
-      border-bottom: 2px solid #cfcfcf18;
+      // border-bottom: 2px solid #cfcfcf18;
     }
     @media screen and (max-width: 768px) {
       display: flex;
       align-items: center;
-      border-radius: 0.6rem;
-      border-bottom-right-radius: 2rem;
-      border-bottom-left-radius: 1rem;
+      // border-radius: 0.6rem;
+      // border-bottom-right-radius: 2rem;
+      // border-bottom-left-radius: 1rem;
 
       // border-bottom-left-radius: 0rem;
       // border-right: 4px solid #cfcfcf18;
-      border-bottom: 2px solid #cfcfcf18;
+      // border-bottom: 2px solid #cfcfcf18;
 
       .syntax-sign {
         color: rgb(143, 143, 155);
@@ -1204,6 +1206,8 @@ section {
   background-color: rgb(66, 66, 94);
   height: 1.05rem;
   border: 1.2px solid rgb(69, 69, 73);
+  box-shadow: 0 3px 4px #22222236;
+
   // border: 1px solid rgb(153, 153, 222);
   border-radius: 0.4rem;
   padding: 0.1rem 0.5rem;
@@ -1227,7 +1231,6 @@ section {
 .portfolio-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 1.5rem;
   padding: 1.5rem 0rem 0rem 0rem;
   margin-bottom: 6rem;
@@ -1358,20 +1361,20 @@ section {
   margin: 0.8rem 0 0.5rem 0;
   font-weight: 400;
 
-  border-radius: 0.6rem;
-  border-bottom-right-radius: 3rem;
-  border-bottom-left-radius: 2rem;
+  // border-radius: 0.6rem;
+  // border-bottom-right-radius: 3rem;
+  // border-bottom-left-radius: 2rem;
 
   // border-bottom-left-radius: 0rem;
   // border-right: 5px solid #cfcfcf18;
-  border-bottom: 2px solid #cfcfcf18;
+  // border-bottom: 2px solid #cfcfcf18;
 
   @media screen and (max-width: 768px) {
-    padding: 0.1rem 1.1rem 0.3rem 1rem;
+    padding: 0.1rem 1.1rem 0.1rem 0.1rem;
     // border-right: 4px solid #cfcfcf18;
 
     font-size: 0.9rem;
-    margin: 0.6rem 0 0.3rem 0;
+    margin: 0.6rem 0 0rem 0;
   }
 }
 
@@ -1388,7 +1391,7 @@ section {
 }
 
 .project-description {
-  text-align: center;
+  text-align: start;
   font-size: 0.8rem;
   font-weight: 450;
   // color: rgb(221, 221, 223);
@@ -1397,8 +1400,8 @@ section {
   // border-bottom: 0.5px solid #5d636e;
   // width: 40rem;
   margin: 0rem 0rem 0rem 0rem;
-  width: 100%;
-  padding: 0rem 0rem 1rem 0rem;
+  // width: 100%;
+  padding: 0rem 0rem 0.5rem 0.1rem;
 
   &.bottom {
     margin-bottom: 0;
@@ -1420,12 +1423,12 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   width: 100%;
-  padding-top: 0.5rem;
-  margin-bottom: 1rem;
+  padding: 0.7rem 0.5rem;
+  // margin-bottom: 0.7rem;
   gap: 0.5rem;
-  // border-top: 0.3px solid #5d636e;
+  border-top: 1px solid #cfcfcf16;
   // border-top: 0.5px solid #66faa47e;
 }
 
@@ -1441,6 +1444,8 @@ section {
   background-color: rgb(66, 66, 94);
   height: 1.05rem;
   border: 1.2px solid rgb(69, 69, 73);
+  box-shadow: 0 3px 4px #22222236;
+
   // border: 1px solid rgb(153, 153, 222);
   border-radius: 0.4rem;
   padding: 0.1rem 0.5rem;
@@ -1454,21 +1459,24 @@ section {
   width: 100%;
 }
 
+
+// TEST 
+
 .project-wrapper-test {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
-  background-color: #353941;
-  border-radius: 2rem;
+  flex-direction: column;
+  background-color: #353941;  
+  border-radius: 1rem;
   border-bottom-right-radius: 6rem;
-  border-bottom-left-radius: 6rem;
+  border-bottom-left-radius: 1rem;
   // border-top: 4px solid #66faa47e;
   // border-left: 3px solid #66faa47e;
   border-top: 4px solid #cfcfcf16;
   border-left: 3px solid #cfcfcf16;
   box-shadow: 0 3px 10px rgba(18, 18, 18, 0.353);
   width: 34rem;
-  height: 10rem;
+  height: auto;
   overflow: hidden;
   cursor: pointer;
 
@@ -1500,9 +1508,9 @@ section {
     display: flex;
     flex-direction: column;
     border-top-left-radius: 1rem;
-    border-bottom-left-radius: 4rem;
+    border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    border-bottom-right-radius: 4rem;
+    border-bottom-right-radius: 1rem;
     // border-top: 3px solid #66faa47e;
     // border-left: 3px solid #66faa47e;
     border-top: 3px solid #cfcfcf16;
@@ -1524,7 +1532,7 @@ section {
 .project-description-wrapper-test {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   width: 100%;
   padding: 0 0.5rem 1rem 0.5rem;
 
@@ -1536,9 +1544,11 @@ section {
 .project-image-test {
   // border-left: 4px solid #66faa47e;
   border-left: 4px solid #cfcfcf16;
-  border-bottom-left-radius: 3rem;
+  border-bottom-left-radius: 8rem;
   // border-top-left-radius: 3rem;
-  width: 10rem;
+  width: 9rem;
+  margin-bottom: -0.4rem;
+
   // border-top-right-radius: 0.5rem;
   // border-bottom-right-radius: 0.5rem;¨
 
@@ -1550,20 +1560,21 @@ section {
     // border-bottom-right-radius: 4rem;
     // border-top-right-radius: 0.85rem;
     border-bottom-left-radius: 4rem;
-    width: 8rem;
+    width: 10rem;
     // height: 9rem;
   }
   @media screen and (max-width: 768px) {
     // border-left: 3px solid #66faa47e;
-    border-left: 3px solid #cfcfcf16;
+    border-left: 1px solid #cfcfcf16;
     // border-bottom: 0.5px solid #66faa47e;
     // border-right: 3px solid #66faa47e;
     // border-bottom: 1px solid #66faa47e;
     // border-bottom-right-radius: 4rem;
     border-top-right-radius: 0.85rem;
-    border-bottom-left-radius: 5rem;
+    border-bottom-left-radius: 6rem;
     // border-bottom-right-radius: 0rem;
-    width: 8rem;
+    width: 6rem;
+    margin-bottom: -0.4rem;
     // height: 9rem;
   }
 }
