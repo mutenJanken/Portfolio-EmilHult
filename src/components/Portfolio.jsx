@@ -1,5 +1,6 @@
 import AlphaProjectImage from "/src/assets/images/alpha-1-1.png";
 import MovieBookingProjectImage from "/src/assets/images/movie-booking-1-1-image.png";
+import MovieBookingProjectTallImage from "/src/assets/images/movie-booking-4-3.png";
 import BookingMicroserviceImage from "/src/assets/images/booking-service-provider-1-1-image.png";
 import EmailMicroserviceImage from "/src/assets/images/email-service-provider-1-1-image.png";
 
@@ -15,7 +16,7 @@ function Portfolio() {
           </div>
           <div className="portfolio-wrapper">
             {/* ALPHA PORTAL  */}
-            <a className="http-link" href="https://github.com/mutenJanken/alpha_project">
+            {/* <a className="http-link" href="https://github.com/mutenJanken/alpha_project">
               <div className="project-wrapper">
                 <div className="project-description-wrapper">
                   <h2 className="project-header">Alpha Portal</h2>
@@ -26,10 +27,10 @@ function Portfolio() {
                   <img className="project-image" src={AlphaProjectImage} alt="Alpha Project Image" />
                 </div>
               </div>
-            </a>
+            </a> */}
 
             {/* BOOKING MICROSERVICE */}
-            <a className="http-link" href="https://github.com/mutenJanken/BookingServiceProvider">
+            {/* <a className="http-link" href="https://github.com/mutenJanken/BookingServiceProvider">
               <div className="project-wrapper">
                 <div className="project-description-wrapper">
                   <h2 className="project-header">Booking Microservice</h2>
@@ -43,10 +44,10 @@ function Portfolio() {
                   />
                 </div>
               </div>
-            </a>
+            </a> */}
 
             {/* EMAIL MICROSERVICE */}
-            <a className="http-link" href="https://github.com/mutenJanken/EmailServiceProvider">
+            {/* <a className="http-link" href="https://github.com/mutenJanken/EmailServiceProvider">
               <div className="project-wrapper">
                 <div className="project-description-wrapper">
                   <h2 className="project-header">Email Microservice</h2>
@@ -63,10 +64,10 @@ function Portfolio() {
                   />
                 </div>
               </div>
-            </a>
+            </a> */}
 
             {/* MOVIE BOOKING  */}
-            <a className="http-link" href="https://github.com/mutenJanken/movie-theater">
+            {/* <a className="http-link" href="https://github.com/mutenJanken/movie-theater">
               <div className="project-wrapper">
                 <div className="project-description-wrapper">
                   <h2 className="project-header">Movie theater</h2>
@@ -80,7 +81,7 @@ function Portfolio() {
                   />
                 </div>
               </div>
-            </a>
+            </a> */}
 
             {/* ALPHA PORTAL TEST */}
             <a className="http-link" href="https://github.com/mutenJanken/alpha_project">
@@ -98,17 +99,17 @@ function Portfolio() {
                   <div className="project-desc-horizontal">
                     <div className="description">Backend</div>
                     <div className="description">Frontend</div>
-                    <div className="description">Database</div>
-                  </div>
-                  <div className="project-desc-horizontal">
                     <div className="description">ASP.NET Web-API</div>
                     <div className="description">React</div>
-                  </div>
-                  <div className="project-desc-horizontal">
+                    <div className="description">Database</div>
                     <div className="description">Javascript</div>
                     <div className="description">Html</div>
                     <div className="description">CSS/SCSS</div>
                   </div>
+                  {/* <div className="project-desc-horizontal">
+                  </div>
+                  <div className="project-desc-horizontal">
+                  </div> */}
                 </div>
               </div>
             </a>
@@ -133,11 +134,11 @@ function Portfolio() {
                   <div className="project-desc-horizontal">
                     <div className="description">Backend</div>
                     <div className="description">Azure Database</div>
-                  </div>
-                  <div className="project-desc-horizontal">
                     <div className="description">ASP.NET</div>
                     <div className="description">gRPC</div>
                   </div>
+                  {/* <div className="project-desc-horizontal">
+                  </div> */}
                 </div>
               </div>
             </a>
@@ -164,14 +165,12 @@ function Portfolio() {
                 <div className="project-desc-vertical">
                   <div className="project-desc-horizontal">
                     <div className="description">Backend</div>
-                  </div>
-                  <div className="project-desc-horizontal">
                     <div className="description">ASP.NET</div>
                     <div className="description">gRPC</div>
-                  </div>
-                  <div className="project-desc-horizontal">
                     <div className="description">Azure Communication Service</div>
-                  </div>
+                  </div>             
+                  {/* <div className="project-desc-horizontal">
+                  </div> */}
                 </div>
               </div>
             </a>
@@ -195,13 +194,13 @@ function Portfolio() {
                 <div className="project-desc-vertical">
                   <div className="project-desc-horizontal">
                     <div className="description">Frontend</div>
-                    <div className="description">JSON Database</div>
-                  </div>
-                  <div className="project-desc-horizontal">
+                    <div className="description">Database</div>
+                    <div className="description">JSON-Server</div>
                     <div className="description">React</div>
                     <div className="description">Javascript</div>
-                    <div className="description">JSON-Server</div>
                   </div>
+                  {/* <div className="project-desc-horizontal">
+                  </div> */}
                 </div>
               </div>
             </a>
