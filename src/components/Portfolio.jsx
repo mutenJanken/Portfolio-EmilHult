@@ -12,7 +12,7 @@ function Portfolio() {
       <section>
         <div className="portfolio-container">
           <div className="section-header-center">
-            <h2 className="section-header">My Portfolio</h2>
+            <h2 className="section-header">Projects</h2>
           </div>
           <div className="portfolio-wrapper">
             {/* ALPHA PORTAL  */}

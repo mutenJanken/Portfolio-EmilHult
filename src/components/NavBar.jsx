@@ -10,7 +10,7 @@ function NavBar() {
         Skillset
       </NavLink>
       <NavLink className="navlink-tab" to="/portfolio">
-        Portfolio
+        Projects
       </NavLink>
     </div>
   );
