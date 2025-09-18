@@ -136,8 +136,6 @@ header {
 
   background-color: #2d3137;
 
-
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -215,7 +213,6 @@ footer {
   // background-color: #353941;
 
   background-color: #2d3137;
-
 
   // border-top-left-radius: 0.5rem;
   // border-top-right-radius: 0.5rem;
@@ -736,8 +733,7 @@ section {
       margin-top: -0.5rem;
       margin-bottom: -0.5rem;
       text-align: center;
-    font-size: 1.9rem;
-
+      font-size: 1.9rem;
     }
     @media screen and (max-width: 1200px) {
       margin-top: -0.5rem;
@@ -811,7 +807,6 @@ section {
 
 .greeting-text-h1 {
   font-weight: 350;
-
 }
 
 .profile-picture-wrapper {
@@ -1132,12 +1127,12 @@ section {
       // padding-bottom: 0.3rem;
       margin-top: -0.1rem;
     }
-    
+
     @media screen and (max-width: 1200px) {
       // border-radius: 0.6rem;
       // border-bottom-right-radius: 2rem;
       // border-bottom-left-radius: 1rem;
-      
+
       // border-bottom-left-radius: 0rem;
       // border-right: 4px solid #cfcfcf18;
       // border-bottom: 2px solid #cfcfcf18;
@@ -1246,7 +1241,7 @@ section {
   // gap: 1.5rem;
   padding: 1.5rem 0rem 0rem 0rem;
   margin-bottom: 6rem;
-  
+
   @media screen and (max-width: 1200px) {
     display: flex;
     flex-direction: column;
@@ -1442,13 +1437,13 @@ section {
   align-items: start;
   width: 95%;
   height: 3.5rem;
-  padding: 0.7rem 0.5rem;
+  padding: 0.4rem 0.5rem 0.4rem 0.5rem;
   // margin-bottom: 0.7rem;
   gap: 0.5rem;
   border-top: 1px solid #cfcfcf16;
   // border-top: 0.5px solid #66faa47e;
 
-  @media screen and (max-width: 1200px){
+  @media screen and (max-width: 1200px) {
     height: auto;
   }
 }
@@ -1480,17 +1475,16 @@ section {
   // width: 100%;
   // display: flex;
   // align-items: center;
-  // justify-content: center;  
+  // justify-content: center;
 }
 
-
-// TEST 
+// TEST
 
 .project-wrapper-test {
   display: flex;
   justify-content: space-between;
-  flex-direction: column;  
-  background-color: #353941;  
+  flex-direction: column;
+  background-color: #353941;
   border-radius: 1rem;
   border-bottom-right-radius: 1rem;
   border-top-left-radius: 1rem;
@@ -1601,5 +1595,22 @@ section {
     width: 6rem;
     margin-bottom: -0.4rem;
     // height: 9rem;
+  }
+}
+
+.source-code-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 0.25rem;
+  padding-top: 0.1rem;
+  padding-right: 1.3rem;
+  background-color: #cfcfcf16;
+  border-top: 1px solid #89888813;
+
+
+  .source-code-link {
+    color: #81899a;
+    font-size: 0.8rem;
   }
 }
