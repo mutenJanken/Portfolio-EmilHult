@@ -1,6 +1,6 @@
 import AlphaProjectImage from "/src/assets/images/alpha-1-1.png";
 import MovieBookingProjectImage from "/src/assets/images/movie-booking-1-1-image.png";
-import MovieBookingProjectTallImage from "/src/assets/images/movie-booking-4-3.png";
+import PortfolioProjectImage from "/src/assets/images/portfolio-projectcard-image.png";
 import BookingMicroserviceImage from "/src/assets/images/booking-service-provider-1-1-image.png";
 import EmailMicroserviceImage from "/src/assets/images/email-service-provider-1-1-image.png";
 
@@ -174,6 +174,40 @@ function Portfolio() {
                     <div className="description">ASP.NET</div>
                     <div className="description">gRPC</div>
                     <div className="description">Azure Communication Service</div>
+                  </div>
+                  {/* <div className="project-desc-horizontal">
+                  </div> */}
+                </div>
+                <div className="source-code-wrapper">
+                  <div className="source-code-link">Press to view</div>
+                </div>
+              </div>
+            </a>
+
+            {/* PORTFOLIO */}
+            <a className="http-link" href="https://github.com/mutenJanken/Portfolio-EmilHult">
+              <div className="project-wrapper-test">
+                <div className="project-desc-image-horizontal">
+                  <div className="project-description-wrapper-test">
+                    <h2 className="project-header">Portfolio Website</h2>
+                    <p className="project-description">Using React. Vercel for deployment.</p>
+                  </div>
+                  <div className="project-image-wrapper">
+                    <img
+                      className="project-image-test"
+                      src={PortfolioProjectImage}
+                      alt="Portfolio Project Image"
+                    />
+                  </div>
+                </div>
+                <div className="project-desc-vertical">
+                  <div className="project-desc-horizontal">
+                    <div className="description">Frontend</div>
+                    <div className="description">React</div>
+                    <div className="description">Javascript</div>
+                    <div className="description">Html</div>
+                    <div className="description">CSS/SCSS</div>
+                    <div className="description">Vercel</div>
                   </div>
                   {/* <div className="project-desc-horizontal">
                   </div> */}
