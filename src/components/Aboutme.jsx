@@ -1,4 +1,4 @@
-import ProfilePicture from "/src/assets/images/profile-pic-square.jpg";
+import ProfilePicture from "/src/assets/images/profile-picture-b&w3.jpg";
 
 function Aboutme() {
   return (
