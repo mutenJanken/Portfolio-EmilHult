@@ -11,42 +11,46 @@ function Skills() {
       <div className="card-under-two">UNDER2</div>
       <section>
         <div className="skills-vertical">
-          <div className="section-header-center">
-            <h2 className="section-header">My skillset</h2>
-          </div>
+            {/* <div className="section-header-center">
+              <h2 className="section-header">My skillset</h2>
+            </div> */}
           <div className="skill-type-container">
-            <div className="skill-type-wrapper">
-              <div className="skill-type">
+
+            {/* BACKEND */}
+            <div className="skill-type-wrapper top-left">
+              <div className="skill-type top-left">
                 <h5 className="skill-h5">
                   Backend<div className="syntax-sign">{"{ }"}</div>
                 </h5>
               </div>
-              <div className="skill-wrapper-new">
-                <div className="logo-wrapper">
+              <div className="skill-wrapper-new top-left">
+                <div className="logo-wrapper top-left">
                   <img className="logo" src={CsharpLogo} alt="csharp logo" />
                 </div>
-                <div className="small-skills-vertical">
+                <div className="small-skills-vertical top-left">
+                  <div className="skill-gap-wrapper">
+                    <div className="skill">REST API</div>
+                    <div className="skill">gRPC</div>
+                  </div>
                   <div className="skill-gap-wrapper">
                     <div className="skill">C#</div>
                     <div className="skill">.NET</div>
                     <div className="skill">ASP.NET</div>
                   </div>
                   <div className="skill-gap-wrapper">
-                    <div className="skill">REST API</div>
-                    <div className="skill">gRPC</div>
+                    <div className="skill">Monolithic architecture</div>
                   </div>
                   <div className="skill-gap-wrapper">
                     <div className="skill">Microservice Architecture</div>
-                  </div>
-                  <div className="skill-gap-wrapper">
-                    <div className="skill">Monolithic architecture</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="skill-type-wrapper">
-              <div className="skill-type">
+
+            {/* FRONTEND */}
+            <div className="skill-type-wrapper top-right">
+              <div className="skill-type top-right">
                 <h5 className="skill-h5">
                   Frontend<div className="syntax-sign">{"</>"}</div>
                 </h5>
@@ -57,31 +61,32 @@ function Skills() {
                 </div>
                 <div className="small-skills-vertical">
                   <div className="skill-gap-wrapper">
-                    <div className="skill">Javascript</div>
-                    <div className="skill">Html</div>
-                    <div className="skill">Css/Scss</div>
-                  </div>
-                  <div className="skill-gap-wrapper">
                     <div className="skill">React</div>
                   </div>
                   <div className="skill-gap-wrapper">
                     <div className="skill">ASP.NET MVC</div>
                   </div>
+                  <div className="skill-gap-wrapper">
+                    <div className="skill">Javascript</div>
+                    <div className="skill">Html</div>
+                    <div className="skill">Css/Scss</div>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div className="skill-type-wrapper">
-              <div className="skill-type">
+            {/* DATABASE */}
+            <div className="skill-type-wrapper bottom-left">
+              <div className="skill-type bottom-left">
                 <h5 className="skill-h5">
                   Database<div className="syntax-sign">{"[ ]"}</div>
                 </h5>
               </div>
-              <div className="skill-wrapper">
-                <div className="logo-wrapper">
+              <div className="skill-wrapper bottom-left">
+                <div className="logo-wrapper bottom-left">
                   <img className="logo" src={DBLogo} alt="database logo" />
                 </div>
-                <div className="small-skills-vertical">
+                <div className="small-skills-vertical bottom-left">
                   <div className="skill-gap-wrapper">
                     <div className="skill">SQL Server</div>
                     <div className="skill">T-SQL</div>
@@ -98,8 +103,8 @@ function Skills() {
             </div>
 
             {/* CLOUD */}
-            <div className="skill-type-wrapper">
-              <div className="skill-type">
+            <div className="skill-type-wrapper bottom-right">
+              <div className="skill-type bottom-right">
                 <h5 className="skill-h5">
                   Cloud<div className="syntax-sign">{"( )"}</div>
                 </h5>
@@ -110,7 +115,7 @@ function Skills() {
                 </div>
                 <div className="small-skills-vertical">
                   <div className="skill-gap-wrapper">
-                    <div className="skill">Azure Web App</div>
+                    <div className="skill">Azure Communication Service</div>
                   </div>
                   <div className="skill-gap-wrapper">
                     <div className="skill">Azure DevOps</div>
@@ -120,7 +125,7 @@ function Skills() {
                     <div className="skill">Azure Database</div>
                   </div>
                   <div className="skill-gap-wrapper">
-                    <div className="skill">Azure Communication Service</div>
+                    <div className="skill">Azure Web App</div>
                   </div>
                   <div className="skill-gap-wrapper"></div>
                 </div>
