@@ -364,17 +364,19 @@ footer {
 }
 
 .socials-footer-logo {
-  display: none;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   border-radius: 1rem;
   margin-right: 0rem;
   margin-top: 0rem;
+  margin: 0.5rem;
   filter: invert(90%) sepia(30%) saturate(320%) hue-rotate(185deg) opacity(60%);
-
+  
   @media screen and (max-width: 768px) {
+    display: none;
     width: 35px;
     height: 35px;
+    margin: 0;
   }
 }
 
@@ -539,6 +541,8 @@ section {
     border-radius: 1rem;
     background-color: #2c3036;
     box-shadow: 0 2px 12px rgba(18, 18, 18, 0.476);
+    box-shadow: 0 2px 10px rgba(18, 18, 18, 0.353);
+
     margin-right: 1.51rem;
     margin-left: 1.63rem;
     margin-top: 1.6rem;
@@ -570,7 +574,8 @@ section {
     width: 95.7%;
     height: 89%;
     border-radius: 1rem;
-    box-shadow: 0 2px 15px rgba(18, 18, 18, 0.432);
+    box-shadow: 0 2px 10px rgba(18, 18, 18, 0.353);
+
     display: block;
     // left: 10%;
     // top: 5.5%;
