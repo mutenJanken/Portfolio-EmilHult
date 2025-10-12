@@ -4,7 +4,7 @@ import GitHubLogo from "/src/assets/images/github.png";
 function Footer() {
   return (
     <footer>
-      <a href="mailto:emilhult@live.se" className="contact-btn">
+      <a href="mailto:emilhult@live.com" className="contact-btn">
         <div>Email</div>
       </a>
       <div className="footer-horizontal">
