@@ -11,9 +11,9 @@ function Portfolio() {
       <div className="card-under-two">UNDER2</div>
       <section>
         <div className="portfolio-container">
-          <div className="section-header-center">
+          {/* <div className="section-header-center">
             <h2 className="section-header">Projects</h2>
-          </div>
+          </div> */}
           <div className="portfolio-wrapper">
             {/* ALPHA PORTAL  */}
             {/* <a className="http-link" href="https://github.com/mutenJanken/alpha_project">

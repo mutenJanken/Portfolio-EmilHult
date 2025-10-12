@@ -8,28 +8,32 @@ function Aboutme() {
         <div className="card-under-two">UNDER2</div>
         <section>
           <div className="about-me-wrapper">
-            <div className="profile-picture-wrapper">
-              <img className="profile-picture" src={ProfilePicture} alt="Profile picture" />
-            </div>
-            <div className="about-me-vertical">
-              <h2 className="greeting-text">
-                <strong className="greeting-strong"> Hi There</strong>, I'm
-              </h2>
-              <h1 className="greeting-text-h1">Emil Hult</h1>
-              <p className="aboutme-description-wrapper">
-                I'm currently studying .NET Fullstack development and just getting started on my journey as a
-                developer. I enjoy working with both backend and frontend, and I love finding that sweet spot
-                where logic meets design. I'm always looking to learn, explore and improve, both as a
-                programmer and as a problem-solver.
-              </p>
-              <div className="intrest-horizontal">
-                <div className="intrest">Student</div>
-                <div className="intrest">Bookworm</div>
-                <div className="intrest">Guitar</div>
-                <div className="intrest">Exercise</div>
+            {/* <div className="about-me-border"> */}
+              <div className="profile-picture-wrapper">
+                <img className="profile-picture" src={ProfilePicture} alt="Profile picture" />
+              </div>
+              <div className="about-me-vertical">
+                <div className="greeting-wrapper">
+                  <h2 className="greeting-text">
+                    <strong className="greeting-strong"> Hi There</strong>, I'm
+                  </h2>
+                  <h1 className="greeting-text-h1">Emil Hult</h1>
+                </div>
+                <p className="aboutme-description-wrapper">
+                  I'm currently studying .NET Fullstack development and just getting started on my journey as
+                  a developer. I enjoy working with both backend and frontend, and I love finding that sweet
+                  spot where logic meets design. I'm always looking to learn, explore and improve, both as a
+                  programmer and as a problem-solver.
+                </p>
+                <div className="intrest-horizontal">
+                  <div className="intrest">Student</div>
+                  <div className="intrest">Bookworm</div>
+                  <div className="intrest">Guitar</div>
+                  <div className="intrest">Exercise</div>
+                </div>
               </div>
             </div>
-          </div>
+          {/* </div> */}
         </section>
       </div>
     </>
