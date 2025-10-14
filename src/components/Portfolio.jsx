@@ -85,7 +85,7 @@ function Portfolio() {
             </a> */}
 
             {/* CHAT APPLICATION */}
-            <a className="http-link" href="https://github.com/mutenJanken/alpha_project">
+            <a className="http-link" href="https://github.com/mutenJanken/ChatAppMVC">
               <div className="project-wrapper-test">
                 <div className="project-desc-image-horizontal">
                   <div className="project-description-wrapper-test">
