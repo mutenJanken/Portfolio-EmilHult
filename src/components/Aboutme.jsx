@@ -20,7 +20,7 @@ function Aboutme() {
                   <h1 className="greeting-text-h1">Emil Hult</h1>
                 </div>
                 <p className="aboutme-description-wrapper">
-                  I'm currently studying .NET Fullstack development and just getting started on my journey as
+                  Currently studying .NET Fullstack development and I'm just getting started on my journey as
                   a developer. I enjoy working with both backend and frontend, and I love finding that sweet
                   spot where logic meets design. I'm always looking to learn, explore and improve, both as a
                   programmer and as a problem-solver.

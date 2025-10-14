@@ -3,6 +3,7 @@ import MovieBookingProjectImage from "/src/assets/images/movie-booking-1-1-image
 import PortfolioProjectImage from "/src/assets/images/portfolio-projectcard-image.png";
 import BookingMicroserviceImage from "/src/assets/images/booking-service-provider-1-1-image.png";
 import EmailMicroserviceImage from "/src/assets/images/email-service-provider-1-1-image.png";
+import ChatAppMVCImage from "/src/assets/images/chatappmvc-1-1-image.png";
 
 function Portfolio() {
   return (
@@ -83,13 +84,57 @@ function Portfolio() {
               </div>
             </a> */}
 
-            {/* ALPHA PORTAL TEST */}
+            {/* CHAT APPLICATION */}
+            <a className="http-link" href="https://github.com/mutenJanken/alpha_project">
+              <div className="project-wrapper-test">
+                <div className="project-desc-image-horizontal">
+                  <div className="project-description-wrapper-test">
+                    <h2 className="project-header">Chat application</h2>
+                    <p className="project-description">
+                      ASP.NET MVC chat application, using SignalR for realtime communication. AES Encryption
+                      for messages, JWT to authenticate users and more. Designed by me.
+                    </p>
+                  </div>
+                  <div className="project-image-wrapper">
+                    <img className="project-image-test" src={ChatAppMVCImage} alt="Alpha Project Image" />
+                  </div>
+                </div>
+                <div className="project-desc-vertical">
+                  <div className="project-desc-horizontal">
+                    <div className="description">Backend</div>
+                    <div className="description">Frontend</div>
+                    <div className="description">ASP.NET MVC</div>
+                    <div className="description">DB</div>
+                    <div className="description">Entity Framework</div>
+                    <div className="description">Identity</div>
+                    <div className="description">SignalR</div>
+                    <div className="description">JWT</div>
+                    <div className="description">Encryption</div>
+                    <div className="description">Testing</div>
+                    <div className="description">Javascript</div>
+                    <div className="description">Html</div>
+                    <div className="description">CSS/SCSS</div>
+                  </div>
+                  {/* <div className="project-desc-horizontal">
+                  </div>
+                  <div className="project-desc-horizontal">
+                  </div> */}
+                </div>
+                <div className="source-code-wrapper">
+                  <div className="source-code-link">View code on GitHub</div>
+                </div>
+              </div>
+            </a>
+
+            {/* ALPHA PORTAL */}
             <a className="http-link" href="https://github.com/mutenJanken/alpha_project">
               <div className="project-wrapper-test">
                 <div className="project-desc-image-horizontal">
                   <div className="project-description-wrapper-test">
                     <h2 className="project-header">Alpha Portal</h2>
-                    <p className="project-description">ASP.NET Web-API, React, Javascript, Html, CSS/SCSS.</p>
+                    <p className="project-description">
+                      ASP.NET Web-API, React, Javascript, Html, CSS/SCSS. Built by me based on a Figma design
+                    </p>
                   </div>
                   <div className="project-image-wrapper">
                     <img className="project-image-test" src={AlphaProjectImage} alt="Alpha Project Image" />
@@ -112,18 +157,20 @@ function Portfolio() {
                   </div> */}
                 </div>
                 <div className="source-code-wrapper">
-                  <div className="source-code-link">Press to view</div>
+                  <div className="source-code-link">View code on GitHub</div>
                 </div>
               </div>
             </a>
 
-            {/* BOOKING MICROSERVICE TEST*/}
+            {/* BOOKING MICROSERVICE */}
             <a className="http-link" href="https://github.com/mutenJanken/BookingServiceProvider">
               <div className="project-wrapper-test">
                 <div className="project-desc-image-horizontal">
                   <div className="project-description-wrapper-test">
                     <h2 className="project-header">Booking Microservice</h2>
-                    <p className="project-description">Microservice for an Event-site using ASP.NET gRPC.</p>
+                    <p className="project-description">
+                      Booking microservice for an Event-site using ASP.NET gRPC.
+                    </p>
                   </div>
                   <div className="project-image-wrapper">
                     <img
@@ -137,27 +184,29 @@ function Portfolio() {
                   <div className="project-desc-horizontal">
                     <div className="description">Backend</div>
                     <div className="description">Azure Database</div>
+                    <div className="description">Entity Framework</div>
                     <div className="description">ASP.NET</div>
                     <div className="description">gRPC</div>
+                    <div className="description">Testing</div>
                   </div>
                   {/* <div className="project-desc-horizontal">
                   </div> */}
                 </div>
                 <div className="source-code-wrapper">
-                  <div className="source-code-link">Press to view</div>
+                  <div className="source-code-link">View code on GitHub</div>
                 </div>
               </div>
             </a>
 
-            {/* EMAIL MICROSERVICE TEST */}
+            {/* EMAIL MICROSERVICE */}
             <a className="http-link" href="https://github.com/mutenJanken/EmailServiceProvider">
               <div className="project-wrapper-test">
                 <div className="project-desc-image-horizontal">
                   <div className="project-description-wrapper-test">
                     <h2 className="project-header">Email Microservice</h2>
                     <p className="project-description">
-                      Microservice for an Event-site using ASP.NET gRPC and Azure Communication Service for
-                      emails.
+                      Email microservice for an Event-site using ASP.NET gRPC and Azure Communication Service
+                      for emails.
                     </p>
                   </div>
                   <div className="project-image-wrapper">
@@ -174,23 +223,24 @@ function Portfolio() {
                     <div className="description">ASP.NET</div>
                     <div className="description">gRPC</div>
                     <div className="description">Azure Communication Service</div>
+                    <div className="description">Testing</div>
                   </div>
                   {/* <div className="project-desc-horizontal">
                   </div> */}
                 </div>
                 <div className="source-code-wrapper">
-                  <div className="source-code-link">Press to view</div>
+                  <div className="source-code-link">View code on GitHub</div>
                 </div>
               </div>
             </a>
 
-            {/* PORTFOLIO */}
+            {/* PORTFOLIO WEBSITE */}
             <a className="http-link" href="https://github.com/mutenJanken/Portfolio-EmilHult">
               <div className="project-wrapper-test">
                 <div className="project-desc-image-horizontal">
                   <div className="project-description-wrapper-test">
                     <h2 className="project-header">Portfolio Website</h2>
-                    <p className="project-description">Using React. Vercel for deployment.</p>
+                    <p className="project-description">Using React. Vercel for deployment. Designed by me.</p>
                   </div>
                   <div className="project-image-wrapper">
                     <img
@@ -213,12 +263,12 @@ function Portfolio() {
                   </div> */}
                 </div>
                 <div className="source-code-wrapper">
-                  <div className="source-code-link">Press to view</div>
+                  <div className="source-code-link">View code on GitHub</div>
                 </div>
               </div>
             </a>
 
-            {/* MOVIE BOOKING  TEST*/}
+            {/* MOVIE BOOKING */}
             <a className="http-link" href="https://github.com/mutenJanken/movie-theater">
               <div className="project-wrapper-test">
                 <div className="project-desc-image-horizontal">
@@ -246,7 +296,7 @@ function Portfolio() {
                   </div> */}
                 </div>
                 <div className="source-code-wrapper">
-                  <div className="source-code-link">Press to view</div>
+                  <div className="source-code-link">View code on GitHub</div>
                 </div>
               </div>
             </a>
