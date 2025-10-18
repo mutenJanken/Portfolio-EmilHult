@@ -1,0 +1,101 @@
+{
+    "projects":[
+        {
+            "id": "1",
+            "title": "Chat application",
+            "description": "ASP.NET MVC chat application, using SignalR for realtime communication. AES Encryption for messages, JWT to authenticate users and more. Designed by me.",
+            "techniques": [
+                {"id": "1", "name": "Backend"},
+                {"id": "2", "name": "Frontend"},
+                {"id": "3", "name": "ASP.NET MVC"},
+                {"id": "4", "name": "DB"},
+                {"id": "5", "name": "Entity Framework"},
+                {"id": "6", "name": "Identity"},
+                {"id": "7", "name": "SignalR"},
+                {"id": "8", "name": "JWT"},
+                {"id": "9", "name": "Encryption"},
+                {"id": "10", "name": "Javascript"},
+                {"id": "11", "name": "Html"},
+                {"id": "12", "name": "CSS/SCSS"}
+
+            ],
+            "image": "/src/assets/images/chatappmvc-1-1-image.png",
+            "githubLink": "https://github.com/mutenJanken/ChatAppMVC"
+        },
+        {
+            "id": "2",
+            "title": "Alpha Portal",
+            "description": "ASP.NET Web-API, React, Javascript, Html, CSS/SCSS. Built by me based on a Figma design",
+            "techniques": [
+                {"id": "1", "name": "Backend"},
+                {"id": "2", "name": "Frontend"},
+                {"id": "3", "name": "ASP.NET Web-API"},
+                {"id": "4", "name": "React"},
+                {"id": "5", "name": "Database"},
+                {"id": "6", "name": "Javascript"},
+                {"id": "7", "name": "Html"},
+                {"id": "8", "name": "CSS/SCSS"}
+            ],
+            "image": "/src/assets/images/alpha-1-1.png",
+            "githubLink": "https://github.com/mutenJanken/alpha_project"
+        },
+        {
+            "id": "3",
+            "title": "Booking Microservice",
+            "description": "Booking microservice for an Event-site using ASP.NET gRPC.",
+            "techniques": [
+                {"id": "1", "name": "Backend"},
+                {"id": "2", "name": "Azure Database"},
+                {"id": "3", "name": "Entity Framework"},
+                {"id": "4", "name": "ASP.NET"},
+                {"id": "5", "name": "gRPC"},
+                {"id": "6", "name": "Testing"}
+            ],
+            "image": "/src/assets/images/booking-service-provider-1-1-image.png",
+            "githubLink": "https://github.com/mutenJanken/BookingServiceProvider"
+        },
+        {
+            "id": "4",
+            "title": "Email Microservice",
+            "description": "Email microservice for an Event-site using ASP.NET gRPC and Azure Communication Service for emails.",
+            "techniques": [
+                {"id": "1", "name": "Backend"},
+                {"id": "2", "name": "ASP.NET"},
+                {"id": "3", "name": "gRPC"},
+                {"id": "4", "name": "Azure Communication Service"},
+                {"id": "5", "name": "Testing"}
+            ],
+            "image": "/src/assets/images/email-service-provider-1-1-image.png",
+            "githubLink": "https://github.com/mutenJanken/EmailServiceProvider"
+        },
+        {
+            "id": "5",
+            "title": "Portfolio Website",
+            "description": "Using React. Vercel for deployment. Designed by me.",
+            "techniques": [
+                {"id": "1", "name": "Frontend"},
+                {"id": "2", "name": "React"},
+                {"id": "3", "name": "Javascript"},
+                {"id": "4", "name": "Html"},
+                {"id": "5", "name": "CSS/SCSS"},
+                {"id": "6", "name": "Vercel"}
+            ],
+            "image": "/src/assets/images/portfolio-projectcard-image.png",
+            "githubLink": "https://github.com/mutenJanken/Portfolio-EmilHult"
+        },
+        {
+            "id": "6",
+            "title": "Movie Theater",
+            "description": "Using React, Javascript and a simple JSON-Server. UI Not Designed by me.",
+            "techniques": [
+                {"id": "1", "name": "Frontend"},
+                {"id": "2", "name": "Database"},
+                {"id": "3", "name": "JSON Server"},
+                {"id": "4", "name": "React"},
+                {"id": "5", "name": "Javascript"}
+            ],
+            "image": "/src/assets/images/movie-booking-1-1-image.png",
+            "githubLink": "https://github.com/mutenJanken/movie-theater"
+        }
+    ]
+}
