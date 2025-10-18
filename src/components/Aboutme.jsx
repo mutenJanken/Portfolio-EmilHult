@@ -8,7 +8,6 @@ function Aboutme() {
         <div className="card-under-two">UNDER2</div>
         <section>
           <div className="about-me-wrapper">
-            {/* <div className="about-me-border"> */}
               <div className="profile-picture-wrapper">
                 <img className="profile-picture" src={ProfilePicture} alt="Profile picture" />
               </div>
@@ -33,7 +32,6 @@ function Aboutme() {
                 </div>
               </div>
             </div>
-          {/* </div> */}
         </section>
       </div>
     </>

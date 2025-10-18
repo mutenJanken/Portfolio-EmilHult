@@ -23,7 +23,6 @@ function Footer() {
               <div className="socials-footer-wrapper"></div>
             </div>
           </div>
-          {/* <div className="copyright">@ 2025 Emil Hult</div> */}
         </div>
           <a href="https://www.linkedin.com/in/emil-hult-a47a87326/" className="linkedin-button">
             <img className="socials-footer-logo" src={LinkedInLogo} alt="linkedin-logo" />
