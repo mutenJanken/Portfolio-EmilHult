@@ -1,5 +1,5 @@
-import LinkedInLogo from "/src/assets/images/linkedin.png";
-import GitHubLogo from "/src/assets/images/github.png";
+import LinkedInLogo from "/assets/images/linkedin.png";
+import GitHubLogo from "/assets/images/github.png";
 import NavBar from "./NavBar";
 
 function header() {

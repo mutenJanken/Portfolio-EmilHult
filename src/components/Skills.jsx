@@ -1,7 +1,7 @@
-import CsharpLogo from "/src/assets/images/csharplogo.png";
-import ReactLogo from "/src/assets/images/reactlogo.png";
-import DBLogo from "/src/assets/images/dblogo.png";
-import CloudLogo from "/src/assets/images/cloudlogo.png";
+import CsharpLogo from "/assets/images/csharplogo.png";
+import ReactLogo from "/assets/images/reactlogo.png";
+import DBLogo from "/assets/images/dblogo.png";
+import CloudLogo from "/assets/images/cloudlogo.png";
 
 function Skills() {
   return (
