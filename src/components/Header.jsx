@@ -6,7 +6,7 @@ function header() {
   return (
     <header>
 
-      {/* PORTFOLIO NAME  */}
+      {/* HEADER NAME TITLE  */}
       <div className="header-fullname-mobile">
         <div className="header-vertical">
           <div className="text-container">
@@ -16,14 +16,12 @@ function header() {
             <small className="blinking-cursor"></small>
           </div>
           <div className="developer-type-wrapper">
-            {/* <small className="syntax-style small">{" > "} </small> */}
             <small className="syntax-style text">.NET developer in training</small>
           </div>
         </div>
       </div>
 
       {/* NAVLINKS */}
-
       <div className="horizontal-wrapper">
         <div className="align-navbar-header">
           <NavBar />
