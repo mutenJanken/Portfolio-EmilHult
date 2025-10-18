@@ -2,7 +2,7 @@ import React from "react";
 
 function ProjectCard({ project }) {
   return (
-    <a className="project-wrapper" href={project.githubLink}>
+    <a className="project-wrapper" href={project.githubLink} target="_blank" rel="noopener noreferrer">
       <div className="project-desc-image-horizontal">
         <div className="project-description-wrapper">
           <h2 className="project-header">{project.title}</h2>

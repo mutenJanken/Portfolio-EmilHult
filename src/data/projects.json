@@ -19,7 +19,7 @@
                 {"id": "12", "name": "CSS/SCSS"}
 
             ],
-            "image": "/src/assets/images/chatappmvc-1-1-image.png",
+            "image": "/assets/images/chatappmvc-1-1-image.png",
             "githubLink": "https://github.com/mutenJanken/ChatAppMVC"
         },
         {
@@ -36,7 +36,7 @@
                 {"id": "7", "name": "Html"},
                 {"id": "8", "name": "CSS/SCSS"}
             ],
-            "image": "/src/assets/images/alpha-1-1.png",
+            "image": "/assets/images/alpha-1-1.png",
             "githubLink": "https://github.com/mutenJanken/alpha_project"
         },
         {
@@ -51,7 +51,7 @@
                 {"id": "5", "name": "gRPC"},
                 {"id": "6", "name": "Testing"}
             ],
-            "image": "/src/assets/images/booking-service-provider-1-1-image.png",
+            "image": "/assets/images/booking-service-provider-1-1-image.png",
             "githubLink": "https://github.com/mutenJanken/BookingServiceProvider"
         },
         {
@@ -65,7 +65,7 @@
                 {"id": "4", "name": "Azure Communication Service"},
                 {"id": "5", "name": "Testing"}
             ],
-            "image": "/src/assets/images/email-service-provider-1-1-image.png",
+            "image": "/assets/images/email-service-provider-1-1-image.png",
             "githubLink": "https://github.com/mutenJanken/EmailServiceProvider"
         },
         {
@@ -80,7 +80,7 @@
                 {"id": "5", "name": "CSS/SCSS"},
                 {"id": "6", "name": "Vercel"}
             ],
-            "image": "/src/assets/images/portfolio-projectcard-image.png",
+            "image": "/assets/images/portfolio-projectcard-image.png",
             "githubLink": "https://github.com/mutenJanken/Portfolio-EmilHult"
         },
         {
@@ -94,7 +94,7 @@
                 {"id": "4", "name": "React"},
                 {"id": "5", "name": "Javascript"}
             ],
-            "image": "/src/assets/images/movie-booking-1-1-image.png",
+            "image": "/assets/images/movie-booking-1-1-image.png",
             "githubLink": "https://github.com/mutenJanken/movie-theater"
         }
     ]
